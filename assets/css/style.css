@@ -36,7 +36,7 @@ div p {
   font-weight: 400;
   font-size: 20px;
   color: #4a4a4a;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   margin: 0;
 }
 
@@ -60,7 +60,7 @@ div a {
   text-align: center;
 }
 
-#nav-h {
+#nav-h ul {
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
@@ -75,7 +75,7 @@ div a {
   float: left;
 }
 
-#nav-f {
+#nav-f ul {
   font-weight: 600;
   font-size: 24px;
   color: #ffffff;
