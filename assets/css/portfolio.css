@@ -1,0 +1,138 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  padding: 67px 0;
+}
+
+header, footer {
+  padding: 40px 0px;
+  background-color: orange;
+  text-align: center;
+}
+
+header nav ul li,
+footer nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+h4 {
+  padding-bottom: 20px;
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#about-section p {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #4a4a4a;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+div p span {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div img {
+  display: block;
+  padding-bottom: 25px;
+}
+
+div a {
+  padding-bottom: 60px;
+  color: #f1634f;
+  font-weight: 600;
+  font-size: 24px;
+  /* padding-top: 91px; */
+  /* position: relative; */
+  /* display: flex; */
+}
+
+#projects {
+  text-align: center;
+}
+
+#nav-h ul {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#nav-h a,
+#nav-f a {
+  float: left;
+  color: #ffffff;
+}
+
+#nav-f ul {
+  margin: 0;
+  padding: 0px;
+  color: #ffffff;
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+main h3 {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #986d64;
+  color: #986d64;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+#nav-h a:hover, #nav-f a:hover {
+    border-bottom: 2px solid #ffffff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#project-section .frames {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#project-section .proj-frame {
+  position: relative;
+  display: block;
+  margin-bottom: -244px;
+  margin-left: -115px;
+  width: 600px;
+  height: 630px;
+  border: none;
+  transform: scale(0.6);
+  transform-origin: top;
+}
+
+div a:hover {
+    margin-bottom: 55px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #23527c;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.15em;
+}
