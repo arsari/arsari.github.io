@@ -1,3 +1,9 @@
+/*
+ *  Codetrotters Intro to Web Development Fall 2016
+ *  CSS File Portfolio Project
+ *  Arturo Santiago-Rivera
+ */
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -44,8 +50,8 @@ h4 {
 
 div p span {
   text-transform: uppercase;
-  font-style: italic;
   font-weight: bold;
+  font-style: italic;
 }
 
 div img {
@@ -57,10 +63,7 @@ div a {
   padding-bottom: 60px;
   color: #f1634f;
   font-weight: 600;
-  font-size: 24px;
-  /* padding-top: 91px; */
-  /* position: relative; */
-  /* display: flex; */
+  font-size: 1.4em;
 }
 
 #projects {
@@ -94,7 +97,7 @@ div a {
 main h3 {
   display: inline-block;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-bottom: 5px solid #986d64;
   color: #986d64;
   font-weight: 600;
@@ -109,15 +112,17 @@ main h3 {
 
 #project-section .frames {
     margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #dddddd;
     text-align: center;
 }
 
 #project-section .proj-frame {
   position: relative;
   display: block;
-  margin-bottom: -244px;
-  margin-left: -115px;
-  width: 600px;
+  margin-bottom: -240px;
+  margin-left: -89px;
+  width: 440px;
   height: 630px;
   border: none;
   transform: scale(0.6);
@@ -135,4 +140,10 @@ p {
     margin-bottom: 20px;
     text-align: justify;
     font-size: 1.15em;
+}
+
+@media screen and (max-width: 767px) {
+  #project-section .proj-frame {
+    margin-left: -33px;
+  }
 }
