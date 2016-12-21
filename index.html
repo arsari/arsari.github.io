@@ -1,76 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
     <title>Arsari Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- seo meta code -->
+    <meta name="description" content="Arturo Santiago Web Development Portfolio" />
+    <meta name="keywords" content="codetrotters, web development, web,projects, coding, html, css, js" />
+    <meta name="author" content="Arturo Santiago-Rivera" />
+    <meta name="designer" content="Arturo Santiago-Rivera" />
+    <!-- favicon and modile capable -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" sizes="16x16" />
+    <!-- css & fonts libraries -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" media="all" title="Bootstrap v3.3.7" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.css" media="all" title="" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all" title="" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" media="all" title="" />
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" media="all" title="" />
 </head>
 
 <body>
-    <header>
+    <header id="myHeader">
+        <img src="assets/img/galogo.png" alt="Grupo Arsari">
         <h1>Arturo Santiago-Rivera</h1>
         <nav id="nav-h">
-            <ul>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <ul class="collapse navbar-collapse" id="navbar-collapse-1">
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#project-section">Projects</a></li>
                 <li><a href="#goals-section">Goals</a></li>
+                <li><a href="#skills-section">Skills</a></li>
                 <li><a href="#education-section">Education</a></li>
                 <li><a href="#work-section">Experience</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="about-section">
+    <main id="myContent">
+        <section id="about-section" class="slide">
             <div class="container">
                 <h3>About me</h3>
                 <!-- Your code here -->
                 <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                        <img src="assets/img/asr.jpg" alt="Photo Arsari" class="img-responsive" />
+                    <div class="col-xs-12 col-md-4">
+                        <img src="assets/img/asr.jpg" alt="Arturo Santiago Rivera Photo" class="img-circle img-responsive" />
                     </div>
-                    <div class="col-md-8 col-xs-12">
-                        <p>Arturo Santiago-Rivera, AIT, Assoc AIA, ABA Atlas, is an architect with 25 plus years of professional practice, completed a Master degree in Business Administration at the University of Phoenix, a Master degree in Architecture
+                    <div class="col-xs-12 col-md-8">
+                        <p>Arturo Santiago-Rivera, AIT, Assoc AIA, ABA Atlas, is an architect with 27 plus years of professional practice, completed a Master degree in Business Administration at the University of Phoenix, a Master degree in Architecture
                             and a Bachelor of Environmental Design degree at the University of Puerto Rico.</p>
-                        <p>Combines ‘hands-on’ web development knowledge and information technology experience with formal architecture and business administration education and leadership experience for various local design firms. Known as a hard worker
-                            who willingly takes on additional responsibility while juggling multiple projects. Broad expertise in root cause analysis and corrective action on internal quality and process problems. Very skilled Excel power-user with strong
-                            knowledge of and experience with utilizing charts, tables, sorting and filtering. A technically perceptive web developer, who has multiple years of web design and maintenance experience behind him. Excellent troubleshooting
+                        <p>Mr. Santiago combines <q>hands-on</q> web development knowledge and information technology experience with formal architecture and business administration education and leadership experience for various local design firms. Known
+                            as a hard worker who willingly takes on additional responsibility while juggling multiple projects. Broad expertise in root cause analysis and corrective action on internal quality and process problems. Very skilled Excel power-user
+                            with strong knowledge of and experience with utilizing charts, tables, sorting and filtering. A technically perceptive web developer, who has multiple years of web design and maintenance experience behind him. Excellent troubleshooting
                             and coding organization skills, plus proven ability to find solutions to client needs. Strong work responsibility and excellent organizational skills, and multiple task duties.
                         </p>
                     </div>
                 </div>
-                <hr>
             </div>
         </section>
-        <section id="project-section">
+        <div class="triangle-right sep01">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
+                <polygon points="0 0 100 0 100 100 0 0"></polygon>
+            </svg>
+        </div>
+        <section id="project-section" class="slide">
             <div class="container">
-                <h3>Web Development Projects</h3>
+                <h3>Web Projects</h3>
                 <!-- Your code here -->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-3 frames">
+                    <div class="frames col-xs-12 col-sm-4 col-md-3">
                         <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no">Project - Codetrotters Fellow Challange</iframe>
                         <a href="https://arsari.github.io/codingchallenge2016/" target="_blank">Medalla Beer BAC Calculator</a>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-3 frames">
+                    <div class="frames col-xs-12 col-sm-4 col-md-3">
                         <iframe class="proj-frame" src="https://stark-tundra-77787.herokuapp.com/" scrolling="no">Project - Codetrotters Project ToDo App</iframe>
                         <a href="https://stark-tundra-77787.herokuapp.com/">ToDo App</a>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-3 frames">
+                    <div class="frames col-xs-12 col-sm-4 col-md-3">
                         <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no">Project - Codetrotters Final Project</iframe>
                         <a href="https://ancient-fjord-47040.herokuapp.com/">Desarrollo Cognositivo</a>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-3 frames">
+                    <div class="frames col-xs-12 col-sm-4 col-md-3">
                         <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no">Project - Codetrotters Fellow Challenge</iframe>
                         <a href="https://arsari.github.io/codingchallenge2016-round2/">Greatest Integer</a>
                     </div>
                 </div>
-                <hr>
             </div>
         </section>
-        <section id="goals-section">
+        <div class="triangle-left sep02">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
+                <polygon class="a" points="0 0 100 100 0 100 0 0"></polygon>
+            </svg>
+        </div>
+        <section id="goals-section" class="slide">
             <div class="container">
                 <h3>Goals</h3>
                 <!-- Your code here -->
@@ -80,10 +111,39 @@
                         <p>Another goal is to acknowledge and understand the most commerical coding languages for Web Development.</p>
                     </div>
                 </div>
-                <hr>
             </div>
         </section>
-        <section id="education-section">
+        <div class="triangle-right sep03">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
+                <polygon points="0 0 100 0 100 100 0 0"></polygon>
+            </svg>
+        </div>
+        <section id="skills-section" class="slide">
+            <div class="container">
+                <h3>Skills</h3>
+                <!-- Your code here -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 charts">
+                        <canvas id="designChart"></canvas>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 charts">
+                        <canvas id="htmlChart"></canvas>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 charts">
+                        <canvas id="jsChart"></canvas>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 charts">
+                        <canvas id="bootChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="triangle-left sep04">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
+                <polygon class="a" points="0 0 100 100 0 100 0 0"></polygon>
+            </svg>
+        </div>
+        <section id="education-section" class="slide">
             <div class="container">
                 <h3>Education</h3>
                 <!-- Your code here -->
@@ -97,50 +157,151 @@
                         <p>I continue studies at <span>codetrotters </span> with courses in Web Development, jQuery, Javascript.</p>
                     </div>
                 </div>
-                <hr>
             </div>
         </section>
-        <section id="work-section">
+        <div class="triangle-right sep05">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
+                <polygon points="0 0 100 0 100 100 0 0"></polygon>
+            </svg>
+        </div>
+        <section id="work-section" class="slide">
             <div class="container">
                 <h3>Work</h3>
                 <!-- Your code here -->
                 <div class="row">
                     <div class="col-xs-12">
                         <h4>About.me</h4>
-                        <p><span>grupo arsari</span><br>Web Developer | IT Support | Consultant<br>Self-employed consulting studio that provide consulting services in project management, construction administration, accessibility compliance, CAD/BIM
+                        <p><span>grupo arsari</span><br />Web Developer | IT Support | Consultant<br />Self-employed consulting studio that provide consulting services in project management, construction administration, accessibility compliance, CAD/BIM
                             technical support, and web development. We are committed to work as a team and develop our full potential, as a mean to become more productive and satisfied professionals in our jobs.</p>
-                        <p><span>atkins caribe, llp</span><br>Sr Project Manager | IT Help and Support<br>Applies technical expertise, and project management experience to manage project teams on conventional and unconventional projects. Collaborated with
-                            consultants and other key vendors for consistently meet project deadlines and budget constraints. Provide support and maintenance of IT system. Maintains relationship with existing clients and nurture potential clients. Create
-                            Excel templates for budgeting, estimating, and data management.</p>
-                        <p><span>miramar real estate management, inc</span><br>Manager Information Systems (MIS)<br>Plan, install, and implement the
-                            hardware and software infrastructure for the monitoring and full project control of
-                            all corporate project development base on Oracle Primavera System scheduling
-                            and document control software. Perform the planning, programming, and cost
-                            control of the housing rehabilitation construction projects. Prepare construction
-                            cost estimate, cash flow forecast for financing approval and project/construction
-                            schedules and updating.</p>
-                          <p><span>efren r. badia and associates - architects</span><br>Project Manager | IT Manager<br>Closely coordinates with and communicate to consultants, and provides documentation to them, as necessary, to alert them of elements
+                        <p><span>atkins caribe, llp</span><br />Sr Project Manager | IT Help and Support<br />Applies technical expertise, and project management experience to manage project teams on conventional and unconventional projects. Collaborated
+                            with consultants and other key vendors for consistently meet project deadlines and budget constraints. Provide support and maintenance of IT system. Maintains relationship with existing clients and nurture potential clients.
+                            Create Excel templates for budgeting, estimating, and data management.</p>
+                        <p><span>miramar real estate management, inc</span><br />Manager Information Systems (MIS)<br />Plan, install, and implement the hardware and software infrastructure for the monitoring and full project control of all corporate project
+                            development base on Oracle Primavera System scheduling and document control software. Perform the planning, programming, and cost control of the housing rehabilitation construction projects. Prepare construction cost estimate,
+                            cash flow forecast for financing approval and project/construction schedules and updating.</p>
+                        <p><span>efren r. badia and associates - architects</span><br />Project Manager | IT Manager<br />Closely coordinates with and communicate to consultants, and provides documentation to them, as necessary, to alert them of elements
                             needing their coordination and/or documentation.</p>
-                        <h4><a href="http://www.arsari.com" target="_blank"></a>Grupo Arsari</a></h4>
-                        <p>This is my consulting studio. We provide consulting services in project management, construction administration, accessibility compliance, and CAD/BIM technical support throughout the planning, design, and construction phases
-                            of your project so that future needs are considered and handled in the most efficient and innovative way.</p>
+                        <a href="http://www.arsari.com" target="_blank"><h4>Grupo Arsari</h4></a>
+                        <p>This is my consulting studio. We provide consulting services in project management, construction administration, accessibility compliance, and CAD/BIM technical support throughout the planning, design, and construction phases of
+                            your project so that future needs are considered and handled in the most efficient and innovative way.</p>
                     </div>
                 </div>
-                <hr>
-            </div>
             </div>
         </section>
-        <footer>
-            <!-- Your code here -->
-            <nav id="nav-f">
-                <ul>
-                    <li><a href="https://www.facebook.com/arq.asr">Facebook</a></li>
-                    <li><a href="https://www.twitter.com/arq_asr">Twitter</a></li>
-                    <li><a href="https://www.github.com/arsari">GitHub</a></li>
-                </ul>
-            </nav>
-        </footer>
     </main>
+    <footer id="myFooter">
+        <!-- Your code here -->
+        <nav id="nav-f">
+            <ul>
+                <li><a href="https://www.facebook.com/arq.asr">Facebook</a></li>
+                <li><a href="https://www.twitter.com/arq_asr">Twitter</a></li>
+                <li><a href="https://www.github.com/arsari">GitHub</a></li>
+            </ul>
+            <a href="http://www.arsari.com" target="_blank"><img src="assets/img/galogo.png" alt="Grupo Arsari"></a>
+        </nav>
+    </footer>
+    <!-- Scripts libraries -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" title="jQuery v3.1.1"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js" title="Bootstrap v3.3.7"></script>
+    <script type="text/javascript" src="assets/js/chart.bundle.js" title="Chart.js v2.4.0"></script>
+    <script>
+        var ctx1 = document.getElementById("designChart");
+        var ctx2 = document.getElementById("htmlChart");
+        var ctx3 = document.getElementById("jsChart");
+        var ctx4 = document.getElementById("bootChart");
+        var designChart = new Chart(ctx1, {
+            type: "doughnut",
+            data: {
+                labels: [
+                    "Design / Wireframe"
+                ],
+                datasets: [{
+                    data: [85, 15],
+                    backgroundColor: [
+                        "#E53935",
+                        "#f5f5f5"
+                    ],
+                    hoverBackgroundColor: [
+                        "#E53935",
+                        "#f5f5f5"
+                    ]
+                }]
+            },
+            options: {},
+            animation: {
+                animateScale: true
+            }
+        });
+        var htmlChart = new Chart(ctx2, {
+            type: "doughnut",
+            data: {
+                labels: [
+                    "HTML / CSS"
+                ],
+                datasets: [{
+                    data: [85, 15],
+                    backgroundColor: [
+                        "#D81B60",
+                        "#f5f5f5"
+                    ],
+                    hoverBackgroundColor: [
+                        "#D81B60",
+                        "#f5f5f5"
+                    ]
+                }]
+            },
+            options: {},
+            animation: {
+                animateScale: true
+            }
+        });
+        var jsChart = new Chart(ctx3, {
+            type: "doughnut",
+            data: {
+                labels: [
+                    "Javascript / jQuery"
+                ],
+                datasets: [{
+                    data: [40, 60],
+                    backgroundColor: [
+                        "#8E24AA",
+                        "#f5f5f5"
+                    ],
+                    hoverBackgroundColor: [
+                        "#8E24AA",
+                        "#f5f5f5"
+                    ]
+                }]
+            },
+            options: {},
+            animation: {
+                animateScale: true
+            }
+        });
+        var ecxelChart = new Chart(ctx4, {
+            type: "doughnut",
+            data: {
+                labels: [
+                    "Bootstrap Framework"
+                ],
+                datasets: [{
+                    data: [80, 20],
+                    backgroundColor: [
+                        "#5E35B1",
+                        "#f5f5f5"
+                    ],
+                    hoverBackgroundColor: [
+                        "#5E35B1",
+                        "#f5f5f5"
+                    ]
+                }]
+            },
+            options: {},
+            animation: {
+                animateScale: true
+            }
+        });
+    </script>
 </body>
 
 </html>
