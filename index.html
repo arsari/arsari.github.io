@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- seo meta code -->
     <meta name="description" content="Arturo Santiago Web Development Portfolio" />
-    <meta name="keywords" content="codetrotters, web development, web,projects, coding, html, css, js" />
+    <meta name="keywords" content="codetrotters, web development, web, projects, coding, html, css, js, web developer" />
     <meta name="author" content="Arturo Santiago-Rivera" />
     <meta name="designer" content="Arturo Santiago-Rivera" />
     <!-- favicon and modile capable -->
@@ -23,21 +23,21 @@
     <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" media="all" title="" />
 </head>
 
-<body>
+<body data-spy="scroll" data-offset="63" data-target="#nav-h">
     <header id="myHeader">
         <img src="assets/img/galogo.png" alt="Grupo Arsari">
         <h1>Arturo Santiago-Rivera</h1>
         <nav id="nav-h">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-h-collapse" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
             </div>
-            <ul class="collapse navbar-collapse" id="navbar-collapse-1">
-                <li><a href="#about-section">About</a></li>
+            <ul class="nav collapse navbar-collapse" id="nav-h-collapse">
+                <li class='active'><a href="#about-section">About</a></li>
                 <li><a href="#project-section">Projects</a></li>
                 <li><a href="#goals-section">Goals</a></li>
                 <li><a href="#skills-section">Skills</a></li>
@@ -50,7 +50,6 @@
         <section id="about-section" class="slide">
             <div class="container">
                 <h3>About me</h3>
-                <!-- Your code here -->
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
                         <img src="assets/img/asr.jpg" alt="Arturo Santiago Rivera Photo" class="img-circle img-responsive" />
@@ -67,7 +66,7 @@
                 </div>
             </div>
         </section>
-        <div class="triangle-right sep01">
+        <div class="triangle3060-rl sep01">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
                 <polygon points="0 0 100 0 100 100 0 0"></polygon>
             </svg>
@@ -75,36 +74,34 @@
         <section id="project-section" class="slide">
             <div class="container">
                 <h3>Web Projects</h3>
-                <!-- Your code here -->
                 <div class="row">
                     <div class="frames col-xs-12 col-sm-4 col-md-3">
-                        <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no">Project - Codetrotters Fellow Challange</iframe>
-                        <a href="https://arsari.github.io/codingchallenge2016/" target="_blank">Medalla Beer BAC Calculator</a>
+                        <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no" sandbox>Project - Codetrotters Fellow 2017 Challange 1</iframe>
+                        <a href="https://arsari.github.io/codingchallenge2016/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challange 1">Medalla Beer BAC Calculator</a>
                     </div>
                     <div class="frames col-xs-12 col-sm-4 col-md-3">
-                        <iframe class="proj-frame" src="https://stark-tundra-77787.herokuapp.com/" scrolling="no">Project - Codetrotters Project ToDo App</iframe>
-                        <a href="https://stark-tundra-77787.herokuapp.com/">ToDo App</a>
+                        <iframe class="proj-frame" src="https://stark-tundra-77787.herokuapp.com/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Project ToDo App</iframe>
+                        <a href="https://stark-tundra-77787.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Project ToDo App">ToDo App</a>
                     </div>
                     <div class="frames col-xs-12 col-sm-4 col-md-3">
-                        <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no">Project - Codetrotters Final Project</iframe>
-                        <a href="https://ancient-fjord-47040.herokuapp.com/">Desarrollo Cognositivo</a>
+                        <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no" sandbox>Project - Codetrotters Final Project [Best Project Award]</iframe>
+                        <a href="https://ancient-fjord-47040.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fall 2016 Final Project [Best Project Award]">Desarrollo Cognitivo del Niño</a>
                     </div>
                     <div class="frames col-xs-12 col-sm-4 col-md-3">
-                        <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no">Project - Codetrotters Fellow Challenge</iframe>
-                        <a href="https://arsari.github.io/codingchallenge2016-round2/">Greatest Integer</a>
+                        <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no" sandbox>Project - Codetrotters Fellow 2017 Challenge 2</iframe>
+                        <a href="https://arsari.github.io/codingchallenge2016-round2/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challenge 2">Greatest Integer</a>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="triangle-left sep02">
+        <div class="triangle3060-lr sep02">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
-                <polygon class="a" points="0 0 100 100 0 100 0 0"></polygon>
+              <polygon points="0 100 0 100 100 0 100 100"></polygon>
             </svg>
         </div>
         <section id="goals-section" class="slide">
             <div class="container">
                 <h3>Goals</h3>
-                <!-- Your code here -->
                 <div class="row">
                     <div class="col-xs-12">
                         <p>One of my goals is to be a rockstar coder and fellow at Codetrotters Academy.</p>
@@ -113,40 +110,43 @@
                 </div>
             </div>
         </section>
-        <div class="triangle-right sep03">
+        <div class="triangle3060-rl sep03">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
-                <polygon points="0 0 100 0 100 100 0 0"></polygon>
+              <polygon points="0 0 100 0 100 100 0 0"></polygon>
             </svg>
         </div>
         <section id="skills-section" class="slide">
             <div class="container">
                 <h3>Skills</h3>
-                <!-- Your code here -->
-                <div class="row">
-                    <div class="col-xs-12 col-sm-3 charts">
+                <div class="row toprow">
+                    <div class="col-xs-12 col-sm-4 charts">
                         <canvas id="designChart"></canvas>
                     </div>
-                    <div class="col-xs-12 col-sm-3 charts">
+                    <div class="col-xs-12 col-sm-4 charts">
                         <canvas id="htmlChart"></canvas>
                     </div>
-                    <div class="col-xs-12 col-sm-3 charts">
+                    <div class="col-xs-12 col-sm-4 charts">
                         <canvas id="jsChart"></canvas>
                     </div>
-                    <div class="col-xs-12 col-sm-3 charts">
+                </div>
+                <div class="row bottomrow">
+                    <div class="col-sm-offset-2 col-xs-12 col-sm-4 charts">
                         <canvas id="bootChart"></canvas>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 charts">
+                        <canvas id="osChart"></canvas>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="triangle-left sep04">
+        <div class="triangle3060-lr sep04">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
-                <polygon class="a" points="0 0 100 100 0 100 0 0"></polygon>
+              <polygon points="0 100 0 100 100 0 100 100"></polygon>
             </svg>
         </div>
         <section id="education-section" class="slide">
             <div class="container">
                 <h3>Education</h3>
-                <!-- Your code here -->
                 <div class="row">
                     <div class="col-xs-12">
                         <h4>High School</h4>
@@ -159,15 +159,14 @@
                 </div>
             </div>
         </section>
-        <div class="triangle-right sep05">
+        <div class="triangle3060-rl sep05">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
                 <polygon points="0 0 100 0 100 100 0 0"></polygon>
             </svg>
         </div>
         <section id="work-section" class="slide">
             <div class="container">
-                <h3>Work</h3>
-                <!-- Your code here -->
+                <h3>Work Experience</h3>
                 <div class="row">
                     <div class="col-xs-12">
                         <h4>About.me</h4>
@@ -190,25 +189,27 @@
         </section>
     </main>
     <footer id="myFooter">
-        <!-- Your code here -->
         <nav id="nav-f">
             <ul>
-                <li><a href="https://www.facebook.com/arq.asr">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/arturosantiago">LinkedIn</a></li>
                 <li><a href="https://www.twitter.com/arq_asr">Twitter</a></li>
                 <li><a href="https://www.github.com/arsari">GitHub</a></li>
             </ul>
-            <a href="http://www.arsari.com" target="_blank"><img src="assets/img/galogo.png" alt="Grupo Arsari"></a>
+            <a href="#"><img src="assets/img/galogo.png" alt="Back to Top"></a>
         </nav>
     </footer>
     <!-- Scripts libraries -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" title="jQuery v3.1.1"></script>
     <script type="text/javascript" src="assets/js/bootstrap.js" title="Bootstrap v3.3.7"></script>
     <script type="text/javascript" src="assets/js/chart.bundle.js" title="Chart.js v2.4.0"></script>
+    <script type="text/javascript" src="assets/js/portfolio.js" title=""></script>
     <script>
         var ctx1 = document.getElementById("designChart");
         var ctx2 = document.getElementById("htmlChart");
         var ctx3 = document.getElementById("jsChart");
         var ctx4 = document.getElementById("bootChart");
+        var ctx5 = document.getElementById("osChart");
+
         var designChart = new Chart(ctx1, {
             type: "doughnut",
             data: {
@@ -227,7 +228,15 @@
                     ]
                 }]
             },
-            options: {},
+            options: {
+              legend: false,
+              title: {
+                display: true,
+                text: 'Design / Wireframe',
+                fontSize: 18,
+                fontStyle: 'Bold'
+              }
+            },
             animation: {
                 animateScale: true
             }
@@ -239,7 +248,7 @@
                     "HTML / CSS"
                 ],
                 datasets: [{
-                    data: [85, 15],
+                    data: [90, 10],
                     backgroundColor: [
                         "#D81B60",
                         "#f5f5f5"
@@ -250,7 +259,15 @@
                     ]
                 }]
             },
-            options: {},
+            options: {
+              legend: false,
+              title: {
+                display: true,
+                text: 'HTML / CSS',
+                fontSize: 18,
+                fontStyle: 'Bold'
+              }
+            },
             animation: {
                 animateScale: true
             }
@@ -262,7 +279,7 @@
                     "Javascript / jQuery"
                 ],
                 datasets: [{
-                    data: [40, 60],
+                    data: [45, 55],
                     backgroundColor: [
                         "#8E24AA",
                         "#f5f5f5"
@@ -273,19 +290,27 @@
                     ]
                 }]
             },
-            options: {},
+            options: {
+              legend: false,
+              title: {
+                display: true,
+                text: 'Javascript / jQuery',
+                fontSize: 18,
+                fontStyle: 'Bold'
+              }
+            },
             animation: {
                 animateScale: true
             }
         });
-        var ecxelChart = new Chart(ctx4, {
+        var bootChart = new Chart(ctx4, {
             type: "doughnut",
             data: {
                 labels: [
                     "Bootstrap Framework"
                 ],
                 datasets: [{
-                    data: [80, 20],
+                    data: [90, 10],
                     backgroundColor: [
                         "#5E35B1",
                         "#f5f5f5"
@@ -296,7 +321,46 @@
                     ]
                 }]
             },
-            options: {},
+            options: {
+              legend: false,
+              title: {
+                display: true,
+                text: 'Bootstrap Framework',
+                fontSize: 18,
+                fontStyle: 'Bold'
+              }
+            },
+            animation: {
+                animateScale: true
+            }
+        });
+        var osChart = new Chart(ctx5, {
+            type: "doughnut",
+            data: {
+                labels: [
+                    "Windows / OS X"
+                ],
+                datasets: [{
+                    data: [90, 10],
+                    backgroundColor: [
+                        "#00897B",
+                        "#f5f5f5"
+                    ],
+                    hoverBackgroundColor: [
+                        "#00897B",
+                        "#f5f5f5"
+                    ]
+                }]
+            },
+            options: {
+              legend: false,
+              title: {
+                display: true,
+                text: 'Windows / OS X',
+                fontSize: 18,
+                fontStyle: 'Bold'
+              }
+            },
             animation: {
                 animateScale: true
             }
