@@ -104,10 +104,6 @@ body {
   font-size: 2em;
 }
 
-#myContent .closed {
- height: 0;
-}
-
 #myContent .slide {
   top: 0;
   left: 0;
@@ -229,6 +225,14 @@ body {
     padding: 0px 15px;
 }
 
+#myContent #skills-section .toprow {
+    padding-bottom: 20px;
+}
+
+#myContent #skills-section .bottomrow {
+    padding-top: 20px;
+}
+
 #myContent #education-section {
     z-index: 200;
     padding-top: 80px;
@@ -348,13 +352,4 @@ body {
   #myFooter {
     height: 110px;
   }
-}
-
-
-#myContent #skills-section .toprow {
-    padding-bottom: 20px;
-}
-
-#myContent #skills-section .bottomrow {
-    padding-top: 20px;
 }

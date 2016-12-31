@@ -2,13 +2,13 @@
 <html lang="en-US">
 
 <head>
-    <title>Arsari Portfolio</title>
+    <title>Arsari Web Portfolio</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- seo meta code -->
     <meta name="description" content="Arturo Santiago Web Development Portfolio" />
-    <meta name="keywords" content="codetrotters, web development, web, projects, coding, html, css, js, web developer" />
+    <meta name="keywords" content="codetrotters,web development,web,projects,coding,html,css,js,web developer,puerto rico" />
     <meta name="author" content="Arturo Santiago-Rivera" />
     <meta name="designer" content="Arturo Santiago-Rivera" />
     <!-- favicon and modile capable -->
@@ -96,7 +96,7 @@
         </section>
         <div class="triangle3060-lr sep02">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
-              <polygon points="0 100 0 100 100 0 100 100"></polygon>
+                <polygon points="0 100 0 100 100 0 100 100"></polygon>
             </svg>
         </div>
         <section id="goals-section" class="slide">
@@ -112,7 +112,7 @@
         </section>
         <div class="triangle3060-rl sep03">
             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 100">
-              <polygon points="0 0 100 0 100 100 0 0"></polygon>
+                <polygon points="0 0 100 0 100 100 0 0"></polygon>
             </svg>
         </div>
         <section id="skills-section" class="slide">
@@ -191,9 +191,9 @@
     <footer id="myFooter">
         <nav id="nav-f">
             <ul>
-                <li><a href="https://www.linkedin.com/in/arturosantiago">LinkedIn</a></li>
-                <li><a href="https://www.twitter.com/arq_asr">Twitter</a></li>
-                <li><a href="https://www.github.com/arsari">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/arturosantiago" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.twitter.com/arq_asr" target="_blank">Twitter</a></li>
+                <li><a href="https://www.github.com/arsari" target="_blank">GitHub</a></li>
             </ul>
             <a href="#"><img src="assets/img/galogo.png" alt="Back to Top"></a>
         </nav>
@@ -203,169 +203,6 @@
     <script type="text/javascript" src="assets/js/bootstrap.js" title="Bootstrap v3.3.7"></script>
     <script type="text/javascript" src="assets/js/chart.bundle.js" title="Chart.js v2.4.0"></script>
     <script type="text/javascript" src="assets/js/portfolio.js" title=""></script>
-    <script>
-        var ctx1 = document.getElementById("designChart");
-        var ctx2 = document.getElementById("htmlChart");
-        var ctx3 = document.getElementById("jsChart");
-        var ctx4 = document.getElementById("bootChart");
-        var ctx5 = document.getElementById("osChart");
-
-        var designChart = new Chart(ctx1, {
-            type: "doughnut",
-            data: {
-                labels: [
-                    "Design / Wireframe"
-                ],
-                datasets: [{
-                    data: [85, 15],
-                    backgroundColor: [
-                        "#E53935",
-                        "#f5f5f5"
-                    ],
-                    hoverBackgroundColor: [
-                        "#E53935",
-                        "#f5f5f5"
-                    ]
-                }]
-            },
-            options: {
-              legend: false,
-              title: {
-                display: true,
-                text: 'Design / Wireframe',
-                fontSize: 18,
-                fontStyle: 'Bold'
-              }
-            },
-            animation: {
-                animateScale: true
-            }
-        });
-        var htmlChart = new Chart(ctx2, {
-            type: "doughnut",
-            data: {
-                labels: [
-                    "HTML / CSS"
-                ],
-                datasets: [{
-                    data: [90, 10],
-                    backgroundColor: [
-                        "#D81B60",
-                        "#f5f5f5"
-                    ],
-                    hoverBackgroundColor: [
-                        "#D81B60",
-                        "#f5f5f5"
-                    ]
-                }]
-            },
-            options: {
-              legend: false,
-              title: {
-                display: true,
-                text: 'HTML / CSS',
-                fontSize: 18,
-                fontStyle: 'Bold'
-              }
-            },
-            animation: {
-                animateScale: true
-            }
-        });
-        var jsChart = new Chart(ctx3, {
-            type: "doughnut",
-            data: {
-                labels: [
-                    "Javascript / jQuery"
-                ],
-                datasets: [{
-                    data: [45, 55],
-                    backgroundColor: [
-                        "#8E24AA",
-                        "#f5f5f5"
-                    ],
-                    hoverBackgroundColor: [
-                        "#8E24AA",
-                        "#f5f5f5"
-                    ]
-                }]
-            },
-            options: {
-              legend: false,
-              title: {
-                display: true,
-                text: 'Javascript / jQuery',
-                fontSize: 18,
-                fontStyle: 'Bold'
-              }
-            },
-            animation: {
-                animateScale: true
-            }
-        });
-        var bootChart = new Chart(ctx4, {
-            type: "doughnut",
-            data: {
-                labels: [
-                    "Bootstrap Framework"
-                ],
-                datasets: [{
-                    data: [90, 10],
-                    backgroundColor: [
-                        "#5E35B1",
-                        "#f5f5f5"
-                    ],
-                    hoverBackgroundColor: [
-                        "#5E35B1",
-                        "#f5f5f5"
-                    ]
-                }]
-            },
-            options: {
-              legend: false,
-              title: {
-                display: true,
-                text: 'Bootstrap Framework',
-                fontSize: 18,
-                fontStyle: 'Bold'
-              }
-            },
-            animation: {
-                animateScale: true
-            }
-        });
-        var osChart = new Chart(ctx5, {
-            type: "doughnut",
-            data: {
-                labels: [
-                    "Windows / OS X"
-                ],
-                datasets: [{
-                    data: [90, 10],
-                    backgroundColor: [
-                        "#00897B",
-                        "#f5f5f5"
-                    ],
-                    hoverBackgroundColor: [
-                        "#00897B",
-                        "#f5f5f5"
-                    ]
-                }]
-            },
-            options: {
-              legend: false,
-              title: {
-                display: true,
-                text: 'Windows / OS X',
-                fontSize: 18,
-                fontStyle: 'Bold'
-              }
-            },
-            animation: {
-                animateScale: true
-            }
-        });
-    </script>
 </body>
 
 </html>
