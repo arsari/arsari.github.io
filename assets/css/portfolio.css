@@ -192,12 +192,11 @@ body {
 #myContent #project-section .proj-frame {
   position: relative;
   display: block;
-  margin-bottom: -240px;
-  margin-left: -92px;
-  width: 446px;
+  margin-bottom: -235px;
+  margin-left: -90px;
+  width: 444px;
   height: 630px;
   border: none;
-  border-radius: 20px;
   transform: scale(0.6);
   transform-origin: top;
   outline: none;
@@ -340,16 +339,14 @@ body {
     padding-top: 150px;
   }
   #myContent #project-section .proj-frame {
-    margin-left: -62px;
+    left: 0px;
+    width: 505px;
   }
   #myFooter #nav-f ul {
     font-size: 1.3em;
+    padding-left: 0;
   }
   #myFooter img {
-      margin-right: 154px;
-      margin-top: 3px;
-  }
-  #myFooter {
-    height: 110px;
+      margin-right: 10px;
   }
 }
