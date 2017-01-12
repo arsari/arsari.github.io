@@ -76,7 +76,7 @@ body {
 
 #myHeader .nav a:hover,
 #myFooter #nav-f a:hover {
-    margin: 0 10px;
+    margin: 0;
     padding-right: 2px;
     padding-left: 2px;
     border-bottom: 2px solid #ffffff;
@@ -196,10 +196,10 @@ body {
   margin-left: -90px;
   width: 444px;
   height: 630px;
+  outline: none;
   border: none;
   transform: scale(0.6);
   transform-origin: top;
-  outline: none;
 }
 
 #myContent #goals-section {
@@ -235,13 +235,35 @@ body {
 #myContent #education-section {
     z-index: 200;
     padding-top: 80px;
-    background-color: #00BCD4;
+    background-color: #3F51B5;
 }
 
 #myContent #work-section {
     z-index: 100;
     padding-top: 80px;
     background-color: #78909C;
+}
+
+#myContent #contact-section {
+    z-index: 50;
+    padding-top: 80px;
+    background-color: #00bcd4;
+}
+
+#myContent #contact-section #e-p {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#myContent #contact-section #e-p i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#myContent #contact-section #e-p p {
+    margin: 20px 0 0 0;
+    text-align: center;
 }
 
 #myContent .triangle3060-lr,
@@ -281,10 +303,16 @@ body {
 #myContent .sep04 {
   background-color: #f5f5f5;
 
-  fill: #00bcd4;
+  fill: #3f51b5;
 }
 
 #myContent .sep05 {
+  background-color: #78909c;
+
+  fill: #3f51b5;
+}
+
+#myContent .sep06 {
   background-color: #78909c;
 
   fill: #00bcd4;
@@ -322,6 +350,7 @@ body {
     margin-right: 60px;
     width: 40px;
 }
+
 @media screen and (max-width: 767px) {
   #myHeader #nav-h ul {
     margin-right: 0;
@@ -335,7 +364,8 @@ body {
   #myContent #goals-section,
   #myContent #skills-section,
   #myContent #education-section,
-  #myContent #work-section {
+  #myContent #work-section,
+  #myContent #contact-section {
     padding-top: 150px;
   }
   #myContent #project-section .proj-frame {
@@ -343,8 +373,8 @@ body {
     width: 505px;
   }
   #myFooter #nav-f ul {
-    font-size: 1.3em;
     padding-left: 0;
+    font-size: 1.3em;
   }
   #myFooter img {
       margin-right: 10px;
