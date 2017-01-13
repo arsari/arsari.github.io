@@ -80,8 +80,8 @@ body {
     padding-right: 2px;
     padding-left: 2px;
     border-bottom: 2px solid #ffffff;
-    background-color: transparent;
     text-decoration: none;
+    background-color: transparent;
     font-style: italic;
 }
 
@@ -136,7 +136,6 @@ body {
 
 #myContent a:hover,
 #myContent a h4:hover {
-    margin-bottom: 20px;
     padding-bottom: 3px;
     border-bottom: 4px solid #23527c;
     color: #23527c;
@@ -190,11 +189,10 @@ body {
 }
 
 #myContent #project-section .proj-frame {
-  position: relative;
   display: block;
-  margin-bottom: -235px;
-  margin-left: -90px;
-  width: 444px;
+  margin-bottom: -230px;
+  margin-left: -72px;
+  width: 500px;
   height: 630px;
   outline: none;
   border: none;
@@ -250,20 +248,16 @@ body {
     background-color: #00bcd4;
 }
 
-#myContent #contact-section #e-p {
-    color: #f5f5f5;
-    text-align: center;
-    font-size: 1.2em;
+#myContent #contact-section i {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-#myContent #contact-section #e-p i {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-#myContent #contact-section #e-p p {
-    margin: 20px 0 0 0;
-    text-align: center;
+#myContent #contact-section #ep {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #myContent .triangle3060-lr,
@@ -369,8 +363,7 @@ body {
     padding-top: 150px;
   }
   #myContent #project-section .proj-frame {
-    left: 0px;
-    width: 505px;
+    margin-left: -85px;
   }
   #myFooter #nav-f ul {
     padding-left: 0;

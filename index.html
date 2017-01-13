@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
 
 <head>
     <title>Arsari Web Portfolio</title>
@@ -19,10 +19,28 @@
     <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="favicons/touch-icon-iphone-retina.png" />
     <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="favicons/touch-icon-ipad-retina.png" />
     <link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico" />
-    <meta name="apple-mobile-web-app-title" content="Arsari" />
-    <meta name="application-name" content="Arsari" />
+    <meta name="apple-mobile-web-app-title" content="Arsari Web" />
+    <meta name="application-name" content="Arsari Web" />
     <meta name="msapplication-TileImage" content="favicons/windows_phone_icon.png" />
     <meta name="msapplication-TileColor" content="#2b5797" />
+    <!-- arsari ogp coding -->
+    <meta property="og:title" content="Arsari Web Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.arsari.com/" />
+    <meta property="og:image" content="https://www.arsari.com/favicons/galogo-trans.jpg" />
+    <meta property="og:image:type" content="image/gif" />
+   	<meta property="og:image:width" content="150" />
+    <meta property="og:image:height" content="150" />
+    <meta property="og:description" content="Professional consulting studio that provides project management, construction administration, accessibility compliance, BIM/CAD support and web development consulting services to owners, constructors, designers." />
+   	<meta property="og:locale" content="en-US" />
+    <meta property="og:site_name" content="Grupo Arsari" />
+    <!-- arsari twitter coding -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@arq_asr" />
+    <meta name="twitter:url" content="https://www.arsari.com" />
+    <meta name="twitter:title" content="Arsari Web Portfolio" />
+    <meta name="twitter:description" content="Professional consulting studio that provides project management, construction administration, accessibility compliance, BIM/CAD support and web development consulting services to owners, constructors, designers." />
+    <meta name="twitter:image:src" content="https://www.arsari.com/favicons/galogo-trans.jpg" />
     <!-- css & fonts libraries -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" media="all" title="Bootstrap v3.3.7" />
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.css" media="all" title="" />
@@ -84,21 +102,25 @@
             <div class="container">
                 <h3>Web Projects</h3>
                 <div class="row">
-                    <div class="frames col-xs-12 col-sm-4 col-md-3">
+                    <div class="frames col-xs-12 col-sm-4">
                         <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no" sandbox>Project - Codetrotters Fellow 2017 Challange 1</iframe>
                         <a href="https://arsari.github.io/codingchallenge2016/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challange 1">Medalla Beer BAC Calculator</a>
                     </div>
-                    <div class="frames col-xs-12 col-sm-4 col-md-3">
+                    <div class="frames col-xs-12 col-sm-4">
                         <iframe class="proj-frame" src="https://stark-tundra-77787.herokuapp.com/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Project ToDo App</iframe>
                         <a href="https://stark-tundra-77787.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Project ToDo App">ToDo App</a>
                     </div>
-                    <div class="frames col-xs-12 col-sm-4 col-md-3">
+                    <div class="frames col-xs-12 col-sm-4">
                         <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no" sandbox>Project - Codetrotters Final Project [Best Project Award]</iframe>
                         <a href="https://ancient-fjord-47040.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fall 2016 Final Project [Best Project Award]">Desarrollo Cognitivo del Niño</a>
                     </div>
-                    <div class="frames col-xs-12 col-sm-4 col-md-3">
+                    <div class="frames col-xs-12 col-sm-4">
                         <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no" sandbox>Project - Codetrotters Fellow 2017 Challenge 2</iframe>
                         <a href="https://arsari.github.io/codingchallenge2016-round2/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challenge 2">Greatest Integer</a>
+                    </div>
+                    <div class="frames col-xs-12 col-sm-4">
+                        <iframe class="proj-frame" src="https://arsari.com/" scrolling="no" sandbox>GA Consulting Studio</iframe>
+                        <a href="https://arsari.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Web Dev base on Foundation 6 Framework">Grupo Arsari</a>
                     </div>
                 </div>
             </div>
@@ -208,10 +230,8 @@
                     <div class="col-xs-12">
                         <p>We pride ourselves on our attention to detail and our dedication to quality assurance. Tell us what you think about our web site, our services, or anything else that comes to mind. We welcome all of your comments and suggestions.
                             For a list of our references, or to discuss the scope of our work in further detail, please call or email with questions.</p>
-                    </div>
-                    <div id="e-p">
-                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><a href="mailto:asantiago@arsari.com">asantiago@arsari.com</a>
-                        <p><i class="fa fa-mobile fa-3x" aria-hidden="true"></i>+1 (787) 602-5496</p>
+                        <p id="ep"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><a href="mailto:asantiago@arsari.com">asantiago@arsari.com</a>
+                        <i class="fa fa-mobile fa-3x" aria-hidden="true"></i><a href="skype:7876025496">+1 (787) 602-5496</a></p>
                     </div>
                 </div>
             </div>
