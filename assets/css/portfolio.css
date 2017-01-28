@@ -256,11 +256,16 @@ body {
     background-color: #00bcd4;
 }
 
-#myContent #contact-section #ep {
+#myContent #contact-section #e,
+#myContent #contact-section #p {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#myContent #contact-section #e {
+    margin: 8px 0 8px 0;
 }
 
 #myContent .triangle3060-lr,
@@ -335,7 +340,7 @@ body {
 
 #myFooter ul li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 2px;
 }
 
 #myFooter #nav-f a {
@@ -370,7 +375,7 @@ body {
   }
   #myFooter #nav-f ul {
     padding-left: 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   #myFooter img {
       margin-right: 10px;
