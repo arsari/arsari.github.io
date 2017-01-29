@@ -5,19 +5,19 @@
  */
 
 body {
-  position: relative;
-  font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #myHeader {
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  padding: 15px 0px;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #eeeeee;
-  text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eeeeee;
+    text-align: center;
 }
 
 #myHeader img {
@@ -28,11 +28,11 @@ body {
 }
 
 #myHeader h1 {
-  float: left;
-  margin: 3px 0;
-  padding-left: 10px;
-  font-weight: 800;
-  font-size: 1.5em;
+    float: left;
+    margin: 3px 0;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 1.5em;
 }
 
 #myHeader .navbar-toggle {
@@ -45,19 +45,19 @@ body {
 }
 
 #myHeader ul {
-  float: right;
-  margin-top: 5px;
-  margin-right: 20px;
-  margin-bottom: 0;
-  padding: 0;
-  list-style: none;
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 0;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 0;
 }
 
 #myHeader ul li {
-  display: inline-block;
+    display: inline-block;
 }
 
 #myHeader .active {
@@ -65,55 +65,53 @@ body {
     padding: 8px 8px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(27,127,204,.8);
+    background-color: rgba(27, 127, 204, .8);
     text-decoration: none;
     font-weight: bolder;
 }
 
 #myHeader .nav a {
-  color: #eeeeee;
+    color: #eeeeee;
 }
 
-#myHeader .nav a:hover,
-#myFooter #nav-f a:hover {
+#myHeader .nav a:hover, #myFooter #nav-f a:hover {
     margin: 0;
     padding-right: 2px;
     padding-left: 2px;
     border-bottom: 2px solid #ffffff;
-    text-decoration: none;
     background-color: transparent;
+    text-decoration: none;
     font-style: italic;
 }
 
 #myContent h3 {
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-bottom: 4px;
-  border-bottom: 4px solid #f5f5f5;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 2.75em;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #f5f5f5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 2.75em;
 }
 
 #myContent h4 {
-  display: inline-block;
-  margin: 20px 0px;
-  color: #FF9800;
-  font-weight: 600;
-  font-size: 2em;
+    display: inline-block;
+    margin: 20px 0px;
+    color: #FF9800;
+    font-weight: 600;
+    font-size: 2em;
 }
 
 #myContent .slide {
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  /* position: absolute; */
-  margin: 0;
-  padding-bottom: 80px;
-  width: 100vw;
-  height: auto;
-  transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 80px;
+    width: 100vw;
+    height: auto;
+    transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
 }
 
 #myContent p {
@@ -124,26 +122,33 @@ body {
 }
 
 #myContent p span {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-style: italic;
-  padding-right: 3px
+    padding-right: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myContent ul {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: #ffffff;
+    list-style: none;
+    font-size: 1.15em;
 }
 
 #myContent a {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 1.3em;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.3em;
 }
 
 #myContent a h4 {
-  color: #FF9800;
-  font-weight: 600;
-  font-size: 1.4em;
+    color: #FF9800;
+    font-weight: 600;
+    font-size: 1.4em;
 }
 
-#myContent a:hover,
-#myContent a h4:hover {
+#myContent a:hover, #myContent a h4:hover {
     padding-bottom: 3px;
     border-bottom: 4px solid #23527c;
     color: #23527c;
@@ -168,12 +173,12 @@ body {
 }
 
 #myContent #about-section p {
-  margin: 0;
-  padding-bottom: 20px;
-  color: #f5f5f5;
-  text-align: justify;
-  font-weight: 400;
-  font-size: 1.3em;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #f5f5f5;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.3em;
 }
 
 #myContent #project-section {
@@ -190,15 +195,15 @@ body {
 }
 
 #myContent #project-section .proj-frame {
-  display: block;
-  margin-bottom: -230px;
-  margin-left: -72px;
-  width: 500px;
-  height: 630px;
-  outline: none;
-  border: none;
-  transform: scale(0.6);
-  transform-origin: top;
+    display: block;
+    margin-bottom: -230px;
+    margin-left: -72px;
+    width: 500px;
+    height: 630px;
+    outline: none;
+    border: none;
+    transform: scale(0.6);
+    transform-origin: top;
 }
 
 #myContent #goals-section {
@@ -207,9 +212,7 @@ body {
     background-color: #E91E63;
 }
 
-#myContent #goals-section i,
-#myContent #education-section i,
-#myContent #contact-section i {
+#myContent #goals-section i, #myContent #education-section i, #myContent #contact-section i {
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -256,10 +259,9 @@ body {
     background-color: #00bcd4;
 }
 
-#myContent #contact-section #e,
-#myContent #contact-section #p {
-    margin: 0;
+#myContent #contact-section #e, #myContent #contact-section #p {
     display: flex;
+    margin: 0;
     justify-content: center;
     align-items: center;
 }
@@ -268,116 +270,112 @@ body {
     margin: 8px 0 8px 0;
 }
 
-#myContent .triangle3060-lr,
-#myContent .triangle3060-rl {
-  position: initial;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 100;
-  height: 6.25rem;
+#myContent .triangle3060-lr, #myContent .triangle3060-rl {
+    position: initial;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    height: 6.25rem;
 }
 
-#myContent .triangle3060-lr svg,
-#myContent .triangle3060-rl svg {
-  width: 100%;
-  height: 100%;
+#myContent .triangle3060-lr svg, #myContent .triangle3060-rl svg {
+    width: 100%;
+    height: 100%;
 }
 
 #myContent .sep01 {
-  background-color: #ff9800;
-
-  fill: #009688;
+    background-color: #ff9800;
+    fill: #009688;
 }
 
 #myContent .sep02 {
-  background-color: #ff9800;
-
-  fill: #e91e63;
+    background-color: #ff9800;
+    fill: #e91e63;
 }
 
 #myContent .sep03 {
-  background-color: #f5f5f5;
-
-  fill: #e91e63;
+    background-color: #f5f5f5;
+    fill: #e91e63;
 }
 
 #myContent .sep04 {
-  background-color: #f5f5f5;
-
-  fill: #3f51b5;
+    background-color: #f5f5f5;
+    fill: #3f51b5;
 }
 
 #myContent .sep05 {
-  background-color: #78909c;
-
-  fill: #3f51b5;
+    background-color: #78909c;
+    fill: #3f51b5;
 }
 
 #myContent .sep06 {
-  background-color: #78909c;
-
-  fill: #00bcd4;
+    background-color: #78909c;
+    fill: #00bcd4;
 }
 
 #myFooter {
-  padding: 15px 0px;
-  width: 100vw;
-  height: 80px;
-  border-top: 10px solid #666666;
-  background-color: #000000;
-  text-align: center;
+    padding: 5px 0px;
+    width: 100vw;
+    height: 55px;
+    border-top: 10px solid #666666;
+    background-color: #000000;
+    text-align: center;
 }
 
 #myFooter #nav-f ul {
-  float: left;
-  margin: 5px 0;
-  color: #ffffff;
-  list-style: none;
-  font-weight: 700;
-  font-size: 1.5em;
+    float: left;
+    margin: 5px 0;
+    color: #ffffff;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-left: 20px;
 }
 
 #myFooter ul li {
-  display: inline-block;
-  margin: 0 2px;
+    display: inline-block;
+    margin: 0 2px;
 }
 
 #myFooter #nav-f a {
-  color: #eeeeee;
+    color: #eeeeee;
 }
 
 #myFooter img {
     float: right;
-    margin-right: 60px;
-    width: 40px;
+    padding: 0 20px 0 0;
+    width: 60px;
+    margin: 0;
+}
+
+#copyright p {
+    text-align: center;
+    font-size: .95em;
+    color: #ffffff;
+    background-color: #212121;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 767px) {
-  #myHeader #nav-h ul {
-    margin-right: 0;
-  }
-  #myHeader #nav-h ul li {
-    margin-top: 15px;
-    margin-bottom: 0px;
-  }
-  #myContent #about-section,
-  #myContent #project-section,
-  #myContent #goals-section,
-  #myContent #skills-section,
-  #myContent #education-section,
-  #myContent #work-section,
-  #myContent #contact-section {
-    padding-top: 150px;
-  }
-  #myContent #project-section .proj-frame {
-    margin-left: -85px;
-  }
-  #myFooter #nav-f ul {
-    padding-left: 0;
-    font-size: 1.2em;
-  }
-  #myFooter img {
-      margin-right: 10px;
-  }
+    #myHeader #nav-h ul {
+        margin-right: 0;
+    }
+    #myHeader #nav-h ul li {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    #myContent #about-section, #myContent #project-section, #myContent #goals-section, #myContent #skills-section, #myContent #education-section, #myContent #work-section, #myContent #contact-section {
+        padding-top: 150px;
+    }
+    #myContent #project-section .proj-frame {
+        margin-left: -92px;
+    }
+    #myFooter #nav-f ul {
+        font-size: 1.2em;
+    }
+    #copyright p {
+        font-size: .75em;
+    }
 }

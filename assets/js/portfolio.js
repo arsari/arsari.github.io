@@ -15,10 +15,10 @@ $(document).ready(function() {
       type: "doughnut",
       data: {
         labels: [
-          "Design / Wireframe"
+          "Sketch Wireframe"
         ],
         datasets: [{
-          data: [85, 15],
+          data: [80, 20],
           backgroundColor: [
             "#E53935",
             "#f5f5f5"
@@ -33,7 +33,7 @@ $(document).ready(function() {
         legend: false,
         title: {
           display: true,
-          text: 'Design / Wireframe',
+          text: 'Sketch Wireframe',
           fontSize: 18,
           fontStyle: 'Bold'
         }
@@ -77,7 +77,7 @@ $(document).ready(function() {
       type: "doughnut",
       data: {
         labels: [
-          "Javascript / jQuery"
+          "Javascript"
         ],
         datasets: [{
           data: [60, 40],
@@ -95,7 +95,7 @@ $(document).ready(function() {
         legend: false,
         title: {
           display: true,
-          text: 'Javascript / jQuery',
+          text: 'Javascript',
           fontSize: 18,
           fontStyle: 'Bold'
         }
