@@ -1,87 +1,113 @@
 /*
- *  Codetrotters Intro to Web Development Fall 2016
- *  CSS File Portfolio Project
- *  Arturo Santiago-Rivera
- */
+  Codetrotters Intro to Web Development Fall 2016
+  CSS File Portfolio Project
+  Arturo Santiago-Rivera
+*/
 
 body {
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
 }
 
-#myHeader {
+
+/* myNavbar section */
+
+#myNavbar {
     position: fixed;
     top: 0;
-    z-index: 1000;
-    padding: 15px 0px;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .5);
     color: #eeeeee;
     text-align: center;
 }
 
-#myHeader img {
-    display: inline-block;
+#logo {
     float: left;
     margin-left: 20px;
-    width: 30px;
 }
 
-#myHeader h1 {
-    float: left;
-    margin: 3px 0;
-    padding-left: 10px;
-    font-weight: 800;
+#logo img {
+    width: 40px;
+}
+
+#logo span {
+    margin-left: 10px;
     font-size: 1.5em;
 }
 
-#myHeader .navbar-toggle {
-    margin: 0 019px 0 0;
+.navbar-toggle {
+    margin: 10px 20px 0 0;
     padding: 5px;
 }
 
-#myHeader .icon-bar {
+.icon-bar {
     background-color: #f5f5f5;
 }
 
-#myHeader ul {
+#myNavbar ul {
     float: right;
-    margin-top: 5px;
     margin-right: 20px;
-    margin-bottom: 0;
-    padding: 0;
+    padding: 10px 0;
     list-style: none;
     font-weight: 500;
     font-size: 1em;
     line-height: 0;
 }
 
-#myHeader ul li {
+#myNavbar ul li {
     display: inline-block;
 }
 
-#myHeader .active {
+.active {
     margin: -10px;
     padding: 8px 8px;
     border: none;
     border-radius: 10px;
+    background-color: rgb(27, 127, 204);
     background-color: rgba(27, 127, 204, .8);
     text-decoration: none;
     font-weight: bolder;
 }
 
-#myHeader .nav a {
+.nav a {
     color: #eeeeee;
 }
 
-#myHeader .nav a:hover, #myFooter #nav-f a:hover {
-    margin: 0;
+#myNavbar a:hover {
+    margin: 0 13px;
     padding-right: 2px;
     padding-left: 2px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
     background-color: transparent;
     text-decoration: none;
-    font-style: italic;
+    transition: .2s;
+}
+
+
+/* myContent section */
+
+.fixed-bg-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/coding03.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.typing {
+    margin: 0;
+    position: relative;
+    top: 40%;
+    left: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 #myContent h3 {
@@ -91,27 +117,16 @@ body {
     padding-bottom: 4px;
     border-bottom: 4px solid #f5f5f5;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.75em;
 }
 
 #myContent h4 {
     display: inline-block;
-    margin: 20px 0px;
-    color: #FF9800;
-    font-weight: 600;
+    margin: 20px 0;
+    color: #ff9800;
+    font-weight: 400;
     font-size: 2em;
-}
-
-#myContent .slide {
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    margin: 0;
-    padding-bottom: 80px;
-    width: 100vw;
-    height: auto;
-    transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
 }
 
 #myContent p {
@@ -131,48 +146,69 @@ body {
 #myContent ul {
     margin-bottom: 20px;
     padding-left: 10px;
-    color: #ffffff;
+    color: #fff;
     list-style: none;
     font-size: 1.15em;
 }
 
 #myContent a {
-    color: #ffffff;
+    color: #fff;
     font-weight: 600;
     font-size: 1.3em;
 }
 
-#myContent a h4 {
-    color: #FF9800;
-    font-weight: 600;
-    font-size: 1.4em;
-}
-
-#myContent a:hover, #myContent a h4:hover {
+#myContent a:hover,
+#myContent h4 a:hover {
     padding-bottom: 3px;
-    border-bottom: 4px solid #23527c;
-    color: #23527c;
+    border-bottom: 4px solid #ff9800;
+    color: #ff9800;
     text-decoration: none;
 }
 
-#myContent #about-section {
-    position: relative;
-    z-index: 600;
-    padding-top: 80px;
-    background-color: #009688;
+
+/* typical class for topic sections */
+
+.pad-tb {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#myContent #about-section img {
+.scrolling {
+    position: relative;
+    z-index: 2;
+}
+
+.fa {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.top-row {
+    padding-bottom: 20px;
+}
+
+.bottom-row {
+    padding-top: 20px;
+}
+
+
+/* about topic section */
+
+.about-sec-color {
+    background-color: #166caf;
+}
+
+#about-section img {
     margin-top: 20px;
     margin-right: auto;
     margin-bottom: 20px;
     margin-left: auto;
     padding: 0;
     width: 250px;
-    border: 5px double #ffffff;
+    border: 5px double #fff;
 }
 
-#myContent #about-section p {
+#about-section p {
     margin: 0;
     padding-bottom: 20px;
     color: #f5f5f5;
@@ -181,201 +217,354 @@ body {
     font-size: 1.3em;
 }
 
-#myContent #project-section {
-    z-index: 500;
-    padding-top: 80px;
-    background-color: #FF9800;
+
+/* project topic section */
+
+#project-section {
+    background-image: url('../img/coding01.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#myContent #project-section .frames {
+.project-sec-color {
+    /*background-color: #ff9800;*/
+}
+
+.frames {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 1px dotted #ff9800;
+    border-top: 1px dotted #000000;
     text-align: center;
 }
 
-#myContent #project-section .proj-frame {
+.proj-frame {
     display: block;
     margin-bottom: -230px;
     margin-left: -72px;
     width: 500px;
     height: 630px;
-    outline: none;
     border: none;
-    transform: scale(0.6);
+    transform: scale(.6);
     transform-origin: top;
 }
 
-#myContent #goals-section {
-    z-index: 400;
-    padding-top: 80px;
-    background-color: #E91E63;
+
+/*goals topic section*/
+
+.goals-sec-color {
+    background-color: #e91e63;
 }
 
-#myContent #goals-section i, #myContent #education-section i, #myContent #contact-section i {
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
-#myContent #skills-section {
-    z-index: 300;
-    padding-top: 80px;
+/*skills topic section*/
+
+.skills-sec-color {
     background-color: #f5f5f5;
 }
 
-#myContent #skills-section h3 {
-    border-bottom: 4px solid #F06292;
+#skills-section h3 {
+    border-bottom: 4px solid #f06292;
     color: #e91e63;
 }
 
-#myContent #skills-section .charts {
+#skills-section .charts {
     display: block;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
-#myContent #skills-section .toprow {
-    padding-bottom: 20px;
+
+/* education topic section */
+
+.edu-sec-color {
+    background-color: #3f51b5;
 }
 
-#myContent #skills-section .bottomrow {
-    padding-top: 20px;
+
+/* work topic section */
+
+#work-section {
+    background-image: url('../img/coding02.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#myContent #education-section {
-    z-index: 200;
-    padding-top: 80px;
-    background-color: #3F51B5;
+.work-sec-color {
+    /*background-color: #78909c;*/
 }
 
-#myContent #work-section {
-    z-index: 100;
-    padding-top: 80px;
-    background-color: #78909C;
+
+/* Flip Panel */
+
+.panel {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 250px;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: transparent;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
 }
 
-#myContent #contact-section {
-    z-index: 50;
-    padding-top: 80px;
+.panel .front,
+.panel .back {
+    text-align: center;
+}
+
+.panel .front {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    text-align: center;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.panel .back {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.panel.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.panel.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
+.box1 {
+    background-color: #78909c;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.box1 span {
+    font-size: 1.2em;
+}
+
+.box2 {
+    background-color: #ff7e70;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+
+/*contact topic section*/
+
+.contact-sec-color {
     background-color: #00bcd4;
 }
 
-#myContent #contact-section #e, #myContent #contact-section #p {
+#email {
+    margin: 8px 0;
+}
+
+#email,
+#mobile {
     display: flex;
-    margin: 0;
     justify-content: center;
     align-items: center;
 }
 
-#myContent #contact-section #e {
-    margin: 8px 0 8px 0;
+
+/*myFooter section*/
+
+#myFooter {
+    position: relative;
+    width: 100vw;
+    border-top: 10px solid #666;
+    background-color: #272525;
+    z-index: 10;
 }
 
-#myContent .triangle3060-lr, #myContent .triangle3060-rl {
-    position: initial;
+#social-networks {
+    margin-right: 35px;
+    margin-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#social-networks ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.25em;
+}
+
+#social-networks ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#social-networks a {
+    color: #eeeeee;
+}
+
+#social-networks .link-in:hover {
+    color: #0077B5;
+}
+
+#social-networks .link-twit:hover {
+    color: #1dcaff;
+}
+
+#social-networks .link-git:hover {
+    color: #6cc644;
+}
+
+#social-networks .link-doc:hover {
+    color: #df9409;
+}
+
+#social-networks img {
+    float: right;
+    width: 40px;
+    vertical-align: text-top;
+}
+
+#copyright p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: .95em;
+}
+
+
+/* separators */
+
+.triangle3060-ft-rl,
+.triangle3060-fb-rl,
+.triangle3060-ft-lr,
+.triangle3060-fb-lr {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 100;
-    height: 6.25rem;
+    height: 8rem;
 }
 
-#myContent .triangle3060-lr svg, #myContent .triangle3060-rl svg {
+.triangle3060-ft-rl svg,
+.triangle3060-fb-rl svg,
+.triangle3060-ft-lr svg,
+.triangle3060-fb-lr svg {
     width: 100%;
     height: 100%;
 }
 
-#myContent .sep01 {
-    background-color: #ff9800;
-    fill: #009688;
+.sep01 {
+    background-color: transparent;
+    fill: #166caf;
+    position: relative;
+    top: 78vh;
+    z-index: 3;
 }
 
-#myContent .sep02 {
-    background-color: #ff9800;
+.sep02 {
+    background-color: transparent;
+    fill: #166caf;
+}
+
+.sep03 {
+    background-color: transparent;
     fill: #e91e63;
 }
 
-#myContent .sep03 {
-    background-color: #f5f5f5;
-    fill: #e91e63;
+.sep04 {
+    background-color: #e91e63;
+    fill: #f5f5f5;
 }
 
-#myContent .sep04 {
-    background-color: #f5f5f5;
+.sep05 {
+    background-color: #3f51b5;
+    fill: #f5f5f5;
+}
+
+.sep06 {
+    background-color: transparent;
     fill: #3f51b5;
 }
 
-#myContent .sep05 {
-    background-color: #78909c;
-    fill: #3f51b5;
-}
-
-#myContent .sep06 {
-    background-color: #78909c;
+.sep07 {
+    background-color: transparent;
     fill: #00bcd4;
 }
 
-#myFooter {
-    padding: 5px 0px;
-    width: 100vw;
-    height: 55px;
-    border-top: 10px solid #666666;
-    background-color: #000000;
-    text-align: center;
-}
 
-#myFooter #nav-f ul {
-    float: left;
-    margin: 5px 0;
-    color: #ffffff;
-    list-style: none;
-    font-weight: 700;
-    font-size: 1.5em;
-    padding-left: 20px;
-}
+/* media query */
 
-#myFooter ul li {
-    display: inline-block;
-    margin: 0 2px;
-}
-
-#myFooter #nav-f a {
-    color: #eeeeee;
-}
-
-#myFooter img {
-    float: right;
-    padding: 0 20px 0 0;
-    width: 60px;
-    margin: 0;
-}
-
-#copyright p {
-    text-align: center;
-    font-size: .95em;
-    color: #ffffff;
-    background-color: #212121;
-    margin: 0;
-    padding-bottom: 5px;
-}
-
-@media screen and (max-width: 767px) {
-    #myHeader #nav-h ul {
+@media screen and (max-width: 800px) {
+    #myNavbar ul {
         margin-right: 0;
     }
-    #myHeader #nav-h ul li {
+    #myNavbar ul li {
         margin-top: 15px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
-    #myContent #about-section, #myContent #project-section, #myContent #goals-section, #myContent #skills-section, #myContent #education-section, #myContent #work-section, #myContent #contact-section {
-        padding-top: 150px;
+    #myContent h1 {
+        font-size: 2em;
     }
-    #myContent #project-section .proj-frame {
-        margin-left: -92px;
+    .sep01 {
+        top: 72vh;
     }
-    #myFooter #nav-f ul {
+    .proj-frame {
+        margin-left: 10px;
+    }
+    #social-networks ul {
+        margin-top: 3px;
+        margin-bottom: 3px;
         font-size: 1.2em;
     }
     #copyright p {
         font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .proj-frame {
+        margin-left: -92px;
     }
 }
