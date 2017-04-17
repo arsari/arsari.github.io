@@ -10,7 +10,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- seo meta code -->
+    <!-- page seo -->
     <meta name="description" content="Arturo Santiago-Rivera Web Development Portfolio" />
     <meta name="keywords" content="arsari,codetrotters,web development,web developer,web,projects,coding,html,css,js,puerto rico" />
     <meta name="author" content="Arturo Santiago-Rivera" />
@@ -35,8 +35,7 @@
     <meta property="og:image:type" content="image/gif" />
     <meta property="og:image:width" content="150" />
     <meta property="og:image:height" content="150" />
-    <meta property="og:description" content="Professional consulting studio that provides project management, construction administration, accessibility compliance, BIM/CAD support and front-end web development consulting services to owners, constructors, designers."
-    />
+    <meta property="og:description" content="Professional consulting studio that provides project management, construction administration, accessibility compliance, BIM/CAD support and front-end web development consulting services to owners, constructors, designers." />
     <meta property="og:locale" content="en-US" />
     <meta property="og:site_name" content="Grupo Arsari" />
     <!-- arsari twitter coding -->
@@ -44,50 +43,47 @@
     <meta name="twitter:site" content="@arq_asr" />
     <meta name="twitter:url" content="https://www.arsari.com" />
     <meta name="twitter:title" content="Arsari Web Portfolio" />
-    <meta name="twitter:description" content="Professional consulting studio that provides project management, construction administration, accessibility compliance, BIM/CAD support and front-end web development consulting services to owners, constructors, designers."
-    />
+    <meta name="twitter:description" content="Professional consulting studio that provides project management, construction administration, accessibility compliance, BIM/CAD support and front-end web development consulting services to owners, constructors, designers." />
     <meta name="twitter:image:src" content="https://www.arsari.com/favicons/galogo-trans.jpg" />
-    <!-- css & fonts links -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="all" title="Bootstrap v3.3.7"
-    />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" media="all" title=""
-    />
+    <!-- external links files -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="all" title="Bootstrap v3.3.7" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" media="all" title="" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all" title="" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" media="all" title="" />
     <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" media="all" title="" />
 </head>
 
 <body data-spy="scroll" data-offset="63" data-target="#myNavbar">
-    <header>
-        <nav id="myNavbar">
-            <section id="logo">
+    <header role="banner">
+        <nav id="myNavbar" role="navigation">
+            <section class="logo-h">
                 <img src="assets/img/galogo.png" alt="Grupo Arsari">
                 <span>Arturo Santiago-Rivera</span>
             </section>
             <section class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-h" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <ul id="nav-h" class="nav collapse navbar-collapse">
+                    <li class="active"><a href="#myContent" title="link to top of page">Home</a></li>
+                    <li><a href="#about-section" title="link to about section">About</a></li>
+                    <li><a href="#project-section" title="link to project section">Projects</a></li>
+                    <li><a href="#goals-section" title="link to goals section">Goals</a></li>
+                    <li><a href="#skills-section" title="link to skills section">Skills</a></li>
+                    <li><a href="#education-section" title="link to education section">Education</a></li>
+                    <li><a href="#work-section" title="link to work section">Experience</a></li>
+                    <li><a href="#contact-section" title="link to contact section">Contact Us</a></li>
+                </ul>
             </section>
-            <ul class="nav collapse navbar-collapse" id="nav-h">
-                <li class="active"><a href="#myContent">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#project-section">Projects</a></li>
-                <li><a href="#goals-section">Goals</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#education-section">Education</a></li>
-                <li><a href="#work-section">Experience</a></li>
-                <li><a href="#contact-section">Contact Us</a></li>
-            </ul>
         </nav>
     </header>
-    <main id="myContent">
+    <main id="myContent" role="main">
         <section class="fixed-bg-img">
-            <h2 class="typing" data-period="2000" data-type='["Hello, I am ARSARI.", "I am Professional.", "I am Creative.", "I like Design.", "I like Build.", "Because I am an Architect...", "But, I love to Code.", "I love to Develop.", "I love programming.", "Thats why I am a Front-End Developer!!!", "How can you Help Me to Help You?"]'>
-              <span class="wrap"></span>
+            <h2 class="typing" data-period="2000" data-type='["Hello, I&#39;m ARSARI.", "I am a professional consultant.", "I&#39;m creative.", "I like design.", "I like to build.", "Because I&#39;m an Architect...", "But, I am a technology enthusiast.", "I love to code.", "I love to develop.", "I love to programming.", "That&#39;s why I&#39;m a Front-End Developer!", "How can you Help Me to Help You?"]'>
+                <span class="wrap"></span>
             </h2>
             <!-- <div class="triangle3060-fb-rl sep01">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" viewbox="0 0 100 100">
@@ -100,16 +96,12 @@
                 <div class="container">
                     <h3>About me</h3>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="col-xs-12 col-sm-4">
                             <img src="assets/img/asr.jpg" alt="Arturo Santiago Rivera Photo" class="img-circle img-responsive" />
                         </div>
-                        <div class="col-xs-12 col-sm-8 col-md-8">
-                            <p>I am an experienced architect, project manager, and front-end developer with 27 plus years of professional practice. Completed a Master degree in Business Administration at the University of Phoenix, a Master degree in Architecture
-                                and a Bachelor of Environmental Design degree at the University of Puerto Rico.</p>
-                            <p>I combines <q>hands-on</q> web development knowledge and information technology experience with formal architecture and business administration education and leadership experience for various local design firms. Known as a
-                                hard worker who willingly takes on additional responsibility while juggling multiple projects. Broad expertise in root cause analysis and corrective action on internal quality and process problems. Very skilled Excel power-user
-                                with strong knowledge of and experience with utilizing charts, tables, sorting and filtering. A technically perceptive web developer, who has multiple years of web design and maintenance experience behind him. Excellent
-                                troubleshooting and coding organization skills, plus proven ability to find solutions to client needs. Strong work responsibility and excellent organizational skills, and multiple task duties.</p>
+                        <div class="col-xs-12 col-sm-8">
+                            <p>I am an experienced front-end developer with 10 plus years of coding and programming experience.</p>
+                            <p>I combines <q>hands-on</q> web development knowledge and information technology experience with formal architecture and business administration education and leadership experience for various local design firms. Known as a hard worker who willingly takes on additional responsibility while juggling multiple projects. Broad expertise in root cause analysis and corrective action on internal quality and process problems. Very skilled Excel power-user with strong knowledge of and experience with utilizing charts, tables, sorting and filtering. A technically perceptive web developer, who has multiple years of web design and maintenance experience behind him. Excellent troubleshooting and coding organization skills, plus proven ability to find solutions to client needs.</p>
                         </div>
                     </div>
                 </div>
@@ -118,15 +110,15 @@
         <section id="project-section" class="scrolling">
             <div class="triangle3060-ft-rl sep02">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" viewbox="0 0 100 100">
-              <polygon points="100 0 0 100 0 100 0 0"></polygon>
-            </svg>
+                <polygon points="100 100 100 0 0 0 100 100"></polygon>
+              </svg>
             </div>
             <div class="project-sec-color pad-tb">
                 <div class="container">
                     <h3>Web Projects</h3>
                     <div class="row">
                         <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
-                            <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no" sandbox>Project - Codetrotters Fellow 2017 Challange 1</iframe>
+                            <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Fellow 2017 Challange 1</iframe>
                             <a href="https://arsari.github.io/codingchallenge2016/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challange 1 base on Bootstrap 3 Framework">Medalla Beer BAC Calculator</a>
                         </div>
                         <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
@@ -134,15 +126,15 @@
                             <a href="https://stark-tundra-77787.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Project ToDo App base on Bootstrap 3 Framework">ToDo App</a>
                         </div>
                         <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
-                            <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no" sandbox>Project - Codetrotters Final Project [Best Project Award]</iframe>
+                            <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Final Project [Best Project Award]</iframe>
                             <a href="https://ancient-fjord-47040.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fall 2016 Final Project base on Bootstrap 3 Framework [Best Project Award]">Desarrollo Cognitivo del Niño</a>
                         </div>
                         <div class="frames col-xs-offset-1 col-md-offset-2 col-xs-10 col-sm-3 col-md-4">
-                            <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no" sandbox>Project - Codetrotters Fellow 2017 Challenge 2</iframe>
+                            <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Fellow 2017 Challenge 2</iframe>
                             <a href="https://arsari.github.io/codingchallenge2016-round2/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challenge 2 base on Bootstrap 3 Framework">Greatest Integer</a>
                         </div>
                         <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
-                            <iframe class="proj-frame" src="https://arsari.com/" scrolling="no" sandbox>GA Consulting Studio</iframe> <a href="https://arsari.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Studio web page base on Foundation 6 Framework">Grupo Arsari</a>
+                            <iframe class="proj-frame" src="https://arsari.com/" scrolling="no" sandbox="allow-scripts">GA Consulting Studio</iframe> <a href="https://arsari.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Studio web site base on Foundation 6 Framework">Grupo Arsari</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +155,7 @@
                             <p><i class="fa fa-check-square fa-2x" aria-hidden="true"></i>Serve as Teaching Assistant at Codetrotters Academy to help others be rockstar coders.</p>
                             <p><i class="fa fa-cog fa-spin fa-2x" aria-hidden="true"></i>Acknowledge and understand the most common coding languages for front-end and back-end development.</p>
                             <div class="row">
-                                <div class="col-xs-offset-2 col-md-offset-1 col-xs-4 col-md-3">
+                                <div class="col-xs-offset-1 col-xs-4 col-sm-3">
                                     <ul>
                                         <li><u>Front-End</u></li>
                                         <ul>
@@ -173,12 +165,12 @@
                                         </ul>
                                     </ul>
                                 </div>
-                                <div class="col-xs-4 col-md-3">
+                                <div class="col-xs-4 col-sm-3">
                                     <ul>
                                         <li><u>Back-End</u></li>
                                         <ul>
-                                            <li><i class="fa fa-cog fa-spin" aria-hidden="true"></i>PHP w/ SQL</li>
                                             <li><i class="fa fa-cog fa-spin" aria-hidden="true"></i>Python</li>
+                                            <li><i class="fa fa-cog fa-spin" aria-hidden="true"></i>PHP w/ SQL</li>
                                             <li><i class="fa fa-cog fa-spin" aria-hidden="true"></i>Ruby</li>
                                         </ul>
                                     </ul>
@@ -193,8 +185,8 @@
             </div>
             <div class="triangle3060-ft-lr sep04">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" viewbox="0 0 100 100">
-                <polygon points="100 100 100 0 0 100 100 100"></polygon>
-              </svg>
+                    <polygon points="100 100 100 0 0 100 100 100"></polygon>
+                </svg>
             </div>
         </section>
         <section id="skills-section" class="scrolling">
@@ -237,8 +229,8 @@
         <section id="education-section" class="scrolling">
             <div class="triangle3060-ft-lr sep05">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" viewbox="0 0 100 100">
-              <polygon points="100 100 100 0 0 0 100 100"></polygon>
-            </svg>
+                <polygon points="100 100 100 0 0 0 100 100"></polygon>
+              </svg>
             </div>
             <div class="edu-sec-color pad-tb">
                 <div class="container">
@@ -261,13 +253,13 @@
             <div class="triangle3060-ft-lr sep06">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" viewbox="0 0 100 100">
                 <polygon points="0 0 0 0 100 0 0 100"></polygon>
-            </svg>
+              </svg>
             </div>
             <div class="work-sec-color pad-tb">
                 <div class="container">
                     <h3>Work Experience</h3>
                     <div class="row top-row">
-                        <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -277,13 +269,12 @@
                                 </div>
                                 <div class="back">
                                     <div class="box2">
-                                        <p>Self-employed consulting studio that provide consulting services in project management, construction administration, accessibility compliance, CAD/BIM technical support, and web development. We are committed to
-                                            work as a team and develop our full potential, as a mean to become more productive and satisfied professionals in our jobs.</p>
+                                        <p>Self-employed consulting studio that provide consulting services in project management, construction administration, accessibility compliance, CAD/BIM technical support, and web development. We are committed to work as a team and develop our full potential, as a mean to become more productive and satisfied professionals in our jobs.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -293,16 +284,14 @@
                                 </div>
                                 <div class="back">
                                     <div class="box2">
-                                        <p>Applies technical expertise, and project management experience to manage project teams on conventional and unconventional projects. Collaborated with consultants and other key vendors for consistently meet project
-                                            deadlines and budget constraints. Provide support and maintenance of IT system. Maintains relationship with existing clients and nurture potential clients. Create Excel templates for budgeting, estimating, and
-                                            data management.</p>
+                                        <p>Applies technical expertise, and project management experience to manage project teams on conventional and unconventional projects. Collaborated with consultants and other key vendors for consistently meet project deadlines and budget constraints. Provide support and maintenance of IT system. Maintains relationship with existing clients and nurture potential clients. Create Excel templates for budgeting, estimating, and data management.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row bottom-row">
-                        <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -312,14 +301,12 @@
                                 </div>
                                 <div class="back">
                                     <div class="box2">
-                                        <p>Plan, install, and implement the hardware and software infrastructure for the monitoring and full project control of all corporate project development base on Oracle Primavera System scheduling and document control
-                                            software. Perform the planning, programming, and cost control of the housing rehabilitation construction projects. Prepare construction cost estimate, cash flow forecast for financing approval and project/construction
-                                            schedules and updating.</p>
+                                        <p>Plan, install, and implement the hardware and software infrastructure for the monitoring and full project control of all corporate project development base on Oracle Primavera System scheduling and document control software. Perform the planning, programming, and cost control of the housing rehabilitation construction projects. Prepare construction cost estimate, cash flow forecast for financing approval and project/construction schedules and updating.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -339,10 +326,9 @@
             </div>
             <div class="triangle3060-fb-rl sep07">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" viewbox="0 0 100 100">
-                  <polygon points="100 100 100 0 0 100 100 100"></polygon>
+                <polygon points="100 100 100 0 0 100 100 100"></polygon>
               </svg>
             </div>
-
         </section>
         <section id="contact-section" class="scrolling">
             <div class="contact-sec-color pad-tb">
@@ -350,32 +336,38 @@
                     <h3>Contact Us</h3>
                     <div class="row">
                         <div class="col-xs-12">
-                            <p>We pride ourselves on our attention to detail and our dedication to quality assurance. Tell us what you think about our web site, our services, or anything else that comes to mind. We welcome all of your comments and suggestions.
-                                For a list of our references, or to discuss the scope of our work in further detail, please call or email with questions.</p>
+                            <p>We pride ourselves on our attention to detail and our dedication to quality assurance. Tell us what you think about our web site, our services, or anything else that comes to mind. We welcome all of your comments and suggestions. For a list of our references, or to discuss the scope of our work in further detail, please call or email with questions.</p>
                         </div>
                         <div class="col-md-offset-2 col-xs-12 col-sm-6 col-md-4">
-                            <p id="email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><a href="mailto:asantiago@arsari.com">asantiago@arsari.com</a></p>
+                            <p id="email">
+                                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                                <a href="mailto:asantiago@arsari.com">asantiago@arsari.com</a>
+                            </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
-                            <p id="mobile"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i><a href="skype:7876025496">+1 (787) 602-5496</a></p>
+                            <p id="mobile">
+                                <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+                                <a href="skype:7876025496">+1 (787) 602-5496</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer id="myFooter" class="">
-        <section id="social-networks">
+    <footer id="myFooter" role="contentinfo">
+        <section class="social-networks">
             <ul>
-                <li><a class="link-in" href="https://www.linkedin.com/in/arturosantiago" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                <li><a class="link-twit" href="https://twitter.com/arq_asr" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-                <li><a class="link-git" href="https://www.github.com/arsari" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-                <li><a class="link-doc" href="https://www.dropbox.com/s/xclgjhmejeq996x/Arturo-Santiago-Rivera_IT-Graphic.pdf?dl=0" target="_blank" title="Resume"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a></li>
+                <li><a class="link-in" href="https://www.linkedin.com/in/arturosantiago" target="_blank" title="Visit to Arsari Linkedin Profile"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                <li><a class="link-twit" href="https://twitter.com/arq_asr" target="_blank" title="Visit to Arsari Twitter Profile"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                <li><a class="link-git" href="https://www.github.com/arsari" target="_blank" title="Visit to Arsari Github Profile"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+                <li><a class="link-doc" href="https://www.dropbox.com/s/xclgjhmejeq996x/Arturo-Santiago-Rivera_TechExec.pdf?dl=0" target="_blank" title="Visit to Arsari Technology Resume"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a></li>
             </ul>
             <a href="#"><img src="assets/img/galogo.png" alt="Back to Top" title="Back to Top" /></a>
         </section>
-        <section id="copyright">
-            <p>Copyright © 2017 - Arturo Santiago-Rivera. All Rights Reserved. v3.0.170411</p>
+        <section class="copyright">
+            <p>Copyright © 2017 - Arturo Santiago-Rivera. All Rights Reserved.<br />
+            <span>v3.1.170417</span></p>
         </section>
     </footer>
     <!-- Scripts libraries -->
