@@ -12,12 +12,13 @@ body {
 
 /* myNavbar section */
 
-#myNavbar {
+.navbar {
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 1000;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 0;
     width: 100vw;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, .5);
@@ -41,20 +42,17 @@ body {
 }
 
 .navbar-toggle {
-    margin: 10px 20px 0 0;
-    padding: 5px;
+    margin: 0 10px 0 0;
+    padding: 3px;
 }
 
-.icon-bar {
-    background-color: #f5f5f5;
+button .fa-code {
+    padding: 0;
 }
 
-#myNavbar .navbar-header {
+.nav {
     float: right;
-}
-
-#myNavbar ul {
-    margin-right: 20px;
+    margin-right: 0;
     padding: 10px 0;
     list-style: none;
     font-weight: 500;
@@ -62,8 +60,22 @@ body {
     line-height: 0;
 }
 
-#myNavbar ul li {
+.nav li {
     display: inline-block;
+}
+
+.nav a {
+    color: #eeeeee;
+}
+
+.nav a:hover {
+    margin: 0 13px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-bottom: 3px solid #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s;
 }
 
 .active {
@@ -75,20 +87,6 @@ body {
     background-color: rgba(27, 127, 204, .8);
     text-decoration: none;
     font-weight: bolder;
-}
-
-.nav a {
-    color: #eeeeee;
-}
-
-#myNavbar a:hover {
-    margin: 0 13px;
-    padding-right: 2px;
-    padding-left: 2px;
-    border-bottom: 3px solid #ffffff;
-    background-color: transparent;
-    text-decoration: none;
-    transition: .2s;
 }
 
 
@@ -106,7 +104,7 @@ body {
 .typing {
     margin: 0;
     position: relative;
-    top: 50%;
+    top: 45%;
     left: 0;
     color: #ffffff;
     text-align: center;
@@ -305,7 +303,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    height: 250px;
+    height: 300px;
     position: relative;
     margin-bottom: 10px;
     background-color: transparent;
@@ -369,8 +367,8 @@ body {
 
 .box1 {
     background-color: #78909c;
-    width: 500px;
-    height: 250px;
+    width: 390px;
+    height: 300px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
@@ -384,8 +382,8 @@ body {
 
 .box2 {
     background-color: #ff7e70;
-    width: 500px;
-    height: 250px;
+    width: 390px;
+    height: 300px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
@@ -542,13 +540,13 @@ body {
 }
 
 
-/* media query */
+/* media queries */
 
-@media screen and (max-width: 800px) {
-    #myNavbar ul {
+@media (max-width: @screen-sm-max) {
+    .nav {
         margin-right: 0;
     }
-    #myNavbar ul li {
+    .nav li {
         margin-top: 15px;
         margin-bottom: 0;
     }
@@ -558,9 +556,6 @@ body {
     .sep01 {
         top: 72vh;
     }
-    .proj-frame {
-        margin-left: 10px;
-    }
     .social-networks ul {
         margin-top: 3px;
         margin-bottom: 3px;
@@ -568,11 +563,5 @@ body {
     }
     .copyright p {
         font-size: .75em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .proj-frame {
-        margin-left: -92px;
     }
 }

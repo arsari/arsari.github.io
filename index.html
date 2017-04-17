@@ -55,19 +55,19 @@
 
 <body data-spy="scroll" data-offset="63" data-target="#myNavbar">
     <header role="banner">
-        <nav id="myNavbar" role="navigation">
-            <section class="logo-h">
-                <img src="assets/img/galogo.png" alt="Grupo Arsari">
-                <span>Arturo Santiago-Rivera</span>
-            </section>
+        <nav id="myNavbar" class="navbar" role="navigation">
             <section class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-h" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-                <ul id="nav-h" class="nav collapse navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                </button>
+                <div class="logo-h">
+                    <img src="assets/img/galogo.png" alt="Grupo Arsari" />
+                    <span>Arturo Santiago-Rivera</span>
+                </div>
+            </section>
+            <section id="nav-h" class="collapse navbar-collapse">
+                <ul class="nav">
                     <li class="active"><a href="#myContent" title="link to top of page">Home</a></li>
                     <li><a href="#about-section" title="link to about section">About</a></li>
                     <li><a href="#project-section" title="link to project section">Projects</a></li>
@@ -117,23 +117,23 @@
                 <div class="container">
                     <h3>Web Projects</h3>
                     <div class="row">
-                        <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
+                        <div class="frames col-xs-12 col-sm-6 col-md-4">
                             <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Fellow 2017 Challange 1</iframe>
                             <a href="https://arsari.github.io/codingchallenge2016/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challange 1 base on Bootstrap 3 Framework">Medalla Beer BAC Calculator</a>
                         </div>
-                        <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
+                        <div class="frames col-xs-12 col-sm-6 col-md-4">
                             <iframe class="proj-frame" src="https://stark-tundra-77787.herokuapp.com/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Project ToDo App</iframe>
                             <a href="https://stark-tundra-77787.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Project ToDo App base on Bootstrap 3 Framework">ToDo App</a>
                         </div>
-                        <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
+                        <div class="frames col-xs-12 col-sm-6 col-md-4">
                             <iframe class="proj-frame" src="https://ancient-fjord-47040.herokuapp.com/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Final Project [Best Project Award]</iframe>
                             <a href="https://ancient-fjord-47040.herokuapp.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fall 2016 Final Project base on Bootstrap 3 Framework [Best Project Award]">Desarrollo Cognitivo del Niño</a>
                         </div>
-                        <div class="frames col-xs-offset-1 col-md-offset-2 col-xs-10 col-sm-3 col-md-4">
+                        <div class="frames col-xs-12 col-sm-6 col-md-4">
                             <iframe class="proj-frame" src="https://arsari.github.io/codingchallenge2016-round2/" scrolling="no" sandbox="allow-scripts">Project - Codetrotters Fellow 2017 Challenge 2</iframe>
                             <a href="https://arsari.github.io/codingchallenge2016-round2/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Codetrotters Fellow 2017 Challenge 2 base on Bootstrap 3 Framework">Greatest Integer</a>
                         </div>
-                        <div class="frames col-xs-offset-1 col-md-offset-0 col-xs-10 col-sm-3 col-md-4">
+                        <div class="frames col-xs-12 col-sm-6 col-md-4">
                             <iframe class="proj-frame" src="https://arsari.com/" scrolling="no" sandbox="allow-scripts">GA Consulting Studio</iframe> <a href="https://arsari.com/" target="_blank" data-toggle="tooltip" data-placement="auto" title="Studio web site base on Foundation 6 Framework">Grupo Arsari</a>
                         </div>
                     </div>
@@ -155,17 +155,17 @@
                             <p><i class="fa fa-check-square fa-2x" aria-hidden="true"></i>Serve as Teaching Assistant at Codetrotters Academy to help others be rockstar coders.</p>
                             <p><i class="fa fa-cog fa-spin fa-2x" aria-hidden="true"></i>Acknowledge and understand the most common coding languages for front-end and back-end development.</p>
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-4 col-sm-3">
+                                <div class="col-sm-offset-1 col-xs-6 col-sm-4 col-md-3">
                                     <ul>
                                         <li><u>Front-End</u></li>
                                         <ul>
                                             <li><i class="fa fa-check-square" aria-hidden="true"></i>HTML</li>
                                             <li><i class="fa fa-check-square" aria-hidden="true"></i>CSS</li>
-                                            <li><i class="fa fa-check-square" aria-hidden="true"></i>JavaScript</li>
+                                            <li><i class="fa fa-check-square" aria-hidden="true"></i>Javascript</li>
                                         </ul>
                                     </ul>
                                 </div>
-                                <div class="col-xs-4 col-sm-3">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
                                     <ul>
                                         <li><u>Back-End</u></li>
                                         <ul>
@@ -194,32 +194,31 @@
                 <div class="container">
                     <h3>Skills</h3>
                     <div class="row top-row">
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 col-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="designChart"></canvas>
                         </div>
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="htmlChart"></canvas>
                         </div>
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="cssChart"></canvas>
                         </div>
-
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="bootChart"></canvas>
                         </div>
                     </div>
                     <div class="row bottom-row">
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="jqChart"></canvas>
                         </div>
 
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="jsChart"></canvas>
                         </div>
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="winChart"></canvas>
                         </div>
-                        <div class="col-xs-offset-2 col-md-offset-0 col-xs-8 ol-sm-2 col-md-3 charts">
+                        <div class="col-xs-offset-2 col-sm-offset-1 col-md-offset-0 col-xs-8 col-sm-5 col-md-3 charts">
                             <canvas id="osxChart"></canvas>
                         </div>
                     </div>
@@ -259,12 +258,12 @@
                 <div class="container">
                     <h3>Work Experience</h3>
                     <div class="row top-row">
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-sm-offset-3 col-md-offset-0 col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
                                         <p><span>grupo arsari</span></p>
-                                        <p>Front-End Web Developer | IT Support | Consultant</p>
+                                        <p>Front-End Web Developer | IT Support</p>
                                     </div>
                                 </div>
                                 <div class="back">
@@ -274,7 +273,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-sm-offset-3 col-md-offset-0 col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -291,7 +290,7 @@
                         </div>
                     </div>
                     <div class="row bottom-row">
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-sm-offset-3 col-md-offset-0 col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -306,7 +305,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-sm-offset-3 col-md-offset-0 col-xs-12 col-sm-6">
                             <div class="hover panel">
                                 <div class="front">
                                     <div class="box1">
@@ -367,7 +366,7 @@
         </section>
         <section class="copyright">
             <p>Copyright © 2017 - Arturo Santiago-Rivera. All Rights Reserved.<br />
-            <span>v3.1.170417</span></p>
+                <span>v3.1.170417</span></p>
         </section>
     </footer>
     <!-- Scripts libraries -->
