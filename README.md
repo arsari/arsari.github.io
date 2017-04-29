@@ -1,5 +1,5 @@
 # Web Development Portfolio
-## of Arturo Santiago-Rivera
+## Arturo Santiago-Rivera
 
 > _PO Box 1814<br />
 Sabana Seca, PR 00952<br />
