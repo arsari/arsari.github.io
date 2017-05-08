@@ -9,7 +9,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* myNavbar section */
 
 .navbar {
@@ -28,7 +27,7 @@ body {
 
 .logo-h {
     float: left;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .logo-h img {
@@ -52,7 +51,7 @@ button .fa-code {
 
 .nav {
     float: right;
-    margin-right: 20px;
+    margin-right: 0;
     padding: 10px 0;
     list-style: none;
     font-weight: 500;
@@ -68,19 +67,19 @@ button .fa-code {
     color: #eeeeee;
 }
 
-.nav a:hover {
+.nav>li>a:hover {
     margin: 0 13px;
     padding-right: 2px;
     padding-left: 2px;
     border-bottom: 3px solid #ffffff;
     background-color: transparent;
     text-decoration: none;
-    transition: .2s;
+    transition: .3s;
 }
 
 .active {
     margin: -10px;
-    padding: 8px 8px;
+    padding: 5px 5px;
     border: none;
     border-radius: 10px;
     background-color: rgb(27, 127, 204);
@@ -134,8 +133,8 @@ button .fa-code {
 #myContent p {
     margin-bottom: 20px;
     color: #f5f5f5;
-    text-align: justify;
     font-size: 1.15em;
+    text-align: left;
 }
 
 #myContent p span {
@@ -355,25 +354,27 @@ button .fa-code {
 
 .panel.flip .front {
     z-index: 900;
+    transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
 }
 
 .panel.flip .back {
     z-index: 1000;
+    transform: rotateX(0deg) rotateY(0deg);
     -webkit-transform: rotateX(0deg) rotateY(0deg);
     -moz-transform: rotateX(0deg) rotateY(0deg);
 }
 
 .box1 {
     background-color: #78909c;
-    width: 390px;
+    width: 400px;
     height: 300px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 
 .box1 span {
@@ -382,13 +383,13 @@ button .fa-code {
 
 .box2 {
     background-color: #ff7e70;
-    width: 390px;
+    width: 400px;
     height: 300px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 
 
