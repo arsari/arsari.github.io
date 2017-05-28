@@ -1,4 +1,3 @@
-// typing script
 var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -43,7 +42,7 @@ TxtType.prototype.tick = function() {
 };
 
 window.onload = function() {
-  var elements = document.getElementsByClassName('typing');
+  var elements = document.getElementsByClassName('typewrite');
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-type');
     var period = elements[i].getAttribute('data-period');
@@ -54,6 +53,6 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typing > .wrap { border-right: 0.08em solid #e8f40d}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #e8f40d}";
   document.body.appendChild(css);
 };
