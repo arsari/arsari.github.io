@@ -3,7 +3,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
 /* myNavbar section */
 
 .navbar {
@@ -23,6 +22,7 @@ body {
 .logo-h {
   float: left;
   margin-left: 15px;
+  margin-top: 5px;
 }
 
 .logo-h img {
@@ -111,7 +111,7 @@ button .fa-code {
   text-shadow: 2px 2px 8px #FF0000;
 }
 
-#myContent h3 {
+main h3 {
   display: inline-block;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -122,7 +122,7 @@ button .fa-code {
   font-size: 2.75em;
 }
 
-#myContent h4 {
+main h4 {
   display: inline-block;
   margin: 20px 0;
   color: #ff9800;
@@ -130,21 +130,21 @@ button .fa-code {
   font-size: 2em;
 }
 
-#myContent p {
+main p {
   margin-bottom: 20px;
   color: #f5f5f5;
   font-size: 1.15em;
   text-align: left;
 }
 
-#myContent p span {
+main p span {
   padding-right: 3px;
   text-transform: uppercase;
   font-weight: bold;
   font-style: italic;
 }
 
-#myContent ul {
+main ul {
   margin-bottom: 20px;
   padding-left: 10px;
   color: #fff;
@@ -152,20 +152,19 @@ button .fa-code {
   font-size: 1em;
 }
 
-#myContent a {
+main a {
   color: #fff;
   font-weight: 600;
   font-size: 1.3em;
 }
 
-#myContent a:hover,
-#myContent h4 a:hover {
+main a:hover,
+main h4 a:hover {
   padding-bottom: 3px;
   border-bottom: 4px solid #ff9800;
   color: #ff9800;
   text-decoration: none;
 }
-
 
 /* typical class for topic sections */
 
@@ -218,7 +217,6 @@ button .fa-code {
   font-size: 1.3em;
 }
 
-
 /* project topic section */
 
 #project-section {
@@ -250,13 +248,11 @@ button .fa-code {
   transform-origin: top;
 }
 
-
 /*goals topic section*/
 
 .goals-sec-color {
   background-color: #e91e63;
 }
-
 
 /*skills topic section*/
 
@@ -274,13 +270,11 @@ button .fa-code {
   padding: 0 15px;
 }
 
-
 /* education topic section */
 
 .edu-sec-color {
   background-color: #3f51b5;
 }
-
 
 /* work topic section */
 
@@ -294,7 +288,6 @@ button .fa-code {
 .work-sec-color {
   /*background-color: #78909c;*/
 }
-
 
 /* Flip Panel */
 
@@ -392,28 +385,26 @@ button .fa-code {
   -webkit-border-radius: 20px;
 }
 
-
 /*contact topic section*/
 
 .contact-sec-color {
   background-color: #00bcd4;
 }
 
-#email {
+.email {
   margin: 8px 0;
 }
 
-#email,
-#mobile {
+.email,
+.mobile {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 /*myFooter section*/
 
-#myFooter {
+footer {
   position: relative;
   width: 100vw;
   border-top: 10px solid #666;
@@ -481,7 +472,6 @@ button .fa-code {
   font-size: .75em;
 }
 
-
 /* separators */
 
 .triangle3060-ft-rl,
@@ -540,7 +530,6 @@ button .fa-code {
   fill: #00bcd4;
 }
 
-
 /* media queries */
 
 @media (max-width: 767px) {
@@ -554,7 +543,7 @@ button .fa-code {
   .typewrite {
     font-size: 2.75em;
   }
-  #myContent h1 {
+  main h1 {
     font-size: 2em;
   }
   .sep01 {
