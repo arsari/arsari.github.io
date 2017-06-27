@@ -46,8 +46,7 @@ button .fa-code {
 
 .nav {
   float: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
   line-height: 0;
   text-align: center;
 }
@@ -172,8 +171,8 @@ main h4 a:hover {
 }
 
 .fa {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .top-row {
@@ -413,7 +412,7 @@ footer {
 }
 
 .social-networks {
-  margin-right: 35px;
+  margin-right: 23px;
   margin-left: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -446,6 +445,10 @@ footer {
 
 .social-networks .link-git:hover {
   color: #6cc644;
+}
+
+.social-networks .link-code:hover {
+  color: #d50000;
 }
 
 .social-networks .link-doc:hover {
@@ -534,7 +537,7 @@ footer {
 
 /* media querie */
 
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   .nav {
     margin-right: 0;
   }
@@ -552,8 +555,6 @@ footer {
     top: 72vh;
   }
   .social-networks ul {
-    margin-top: 3px;
-    margin-bottom: 3px;
     font-size: 1.2em;
   }
   .copyright p {
