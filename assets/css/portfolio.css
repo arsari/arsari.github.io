@@ -1,22 +1,19 @@
 body {
   background-color: #000000;
   font-family: 'Poppins', sans-serif;
+  position: relative;
 }
 
-/* myNavbar section */
+/* myNavbar */
 
-.navbar {
+.nav-bar {
   position: fixed;
   top: 0;
   z-index: 1000;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
   width: 100vw;
-  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, .5);
-  color: #eeeeee;
-  text-align: center;
 }
 
 .logo-h {
@@ -33,11 +30,13 @@ body {
   margin-left: 10px;
   font-size: 1.5em;
   vertical-align: middle;
+  color: #eeeeee;
 }
 
 .navbar-toggle {
-  margin: 0 10px 0 0;
+  margin-right: 10px;
   padding: 3px;
+  color: #eeeeee;
 }
 
 button .fa-code {
@@ -46,11 +45,8 @@ button .fa-code {
 
 .nav {
   float: right;
-  margin-right: 0;
-  padding: 10px 0;
-  list-style: none;
-  font-weight: 500;
-  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
   line-height: 0;
 }
 
@@ -58,23 +54,19 @@ button .fa-code {
   display: inline-block;
 }
 
-.nav a {
+.nav li a {
   color: #eeeeee;
-}
-
-.nav>li>a {
   padding: 10px 10px;
-  border: 5px solid transparent;
 }
 
-.nav>li>a:hover {
+.nav li a:hover {
   margin: 0 13px;
   padding-right: 2px;
   padding-left: 2px;
   border-bottom: 3px solid #ffffff;
   background-color: transparent;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.5s;
 }
 
 .active {
@@ -82,17 +74,14 @@ button .fa-code {
   padding: 5px 5px;
   border: none;
   border-radius: 10px;
-  background-color: rgb(27, 127, 204);
   background-color: rgba(27, 127, 204, .8);
   text-decoration: none;
   font-weight: bolder;
 }
 
-
-/* myContent section */
+/* myContent */
 
 .fixed-bg-img {
-  width: 100vw;
   height: 100vh;
   background-image: url('../img/coding03.png');
   background-position: center center;
@@ -166,11 +155,11 @@ main h4 a:hover {
   text-decoration: none;
 }
 
-/* typical class for topic sections */
+/* typical class for sections */
 
 .pad-tb {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .scrolling {
@@ -191,10 +180,9 @@ main h4 a:hover {
   padding-top: 20px;
 }
 
+/* about section */
 
-/* about topic section */
-
-.about-sec-color {
+.about-bg-color {
   background-color: #166caf;
 }
 
@@ -217,7 +205,7 @@ main h4 a:hover {
   font-size: 1.3em;
 }
 
-/* project topic section */
+/* project section */
 
 #project-section {
   background-image: url('../img/coding01.png');
@@ -226,7 +214,7 @@ main h4 a:hover {
   background-size: cover;
 }
 
-.project-sec-color {
+.project-bg-color {
   /*background-color: #ff9800;*/
 }
 
@@ -248,15 +236,15 @@ main h4 a:hover {
   transform-origin: top;
 }
 
-/*goals topic section*/
+/*goals section*/
 
-.goals-sec-color {
+.goals-bg-color {
   background-color: #e91e63;
 }
 
-/*skills topic section*/
+/*skills section*/
 
-.skills-sec-color {
+.skills-bg-color {
   background-color: #f5f5f5;
 }
 
@@ -270,13 +258,13 @@ main h4 a:hover {
   padding: 0 15px;
 }
 
-/* education topic section */
+/* education section */
 
-.edu-sec-color {
+.edu-bg-color {
   background-color: #3f51b5;
 }
 
-/* work topic section */
+/* work section */
 
 #work-section {
   background-image: url('../img/coding02.png');
@@ -285,7 +273,7 @@ main h4 a:hover {
   background-size: cover;
 }
 
-.work-sec-color {
+.work-bg-color {
   /*background-color: #78909c;*/
 }
 
@@ -385,9 +373,9 @@ main h4 a:hover {
   -webkit-border-radius: 20px;
 }
 
-/*contact topic section*/
+/*contact section*/
 
-.contact-sec-color {
+.contact-bg-color {
   background-color: #00bcd4;
 }
 
@@ -402,11 +390,10 @@ main h4 a:hover {
   align-items: center;
 }
 
-/*myFooter section*/
+/* myFooter */
 
 footer {
   position: relative;
-  width: 100vw;
   border-top: 10px solid #666;
   background-color: #272525;
   z-index: 10;
@@ -481,7 +468,7 @@ footer {
   top: 0;
   right: 0;
   left: 0;
-  height: 8rem;
+  height: 10rem;
 }
 
 .triangle3060-ft-rl svg,
@@ -530,7 +517,7 @@ footer {
   fill: #00bcd4;
 }
 
-/* media queries */
+/* media querie */
 
 @media (max-width: 767px) {
   .nav {
