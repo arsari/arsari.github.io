@@ -4,6 +4,7 @@ body {
   position: relative;
 }
 
+
 /* myNavbar */
 
 .nav-bar {
@@ -48,6 +49,7 @@ button .fa-code {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 0;
+  text-align: center;
 }
 
 .nav li {
@@ -78,6 +80,7 @@ button .fa-code {
   text-decoration: none;
   font-weight: bolder;
 }
+
 
 /* myContent */
 
@@ -155,6 +158,7 @@ main h4 a:hover {
   text-decoration: none;
 }
 
+
 /* typical class for sections */
 
 .pad-tb {
@@ -180,6 +184,7 @@ main h4 a:hover {
   padding-top: 20px;
 }
 
+
 /* about section */
 
 .about-bg-color {
@@ -204,6 +209,7 @@ main h4 a:hover {
   font-weight: 400;
   font-size: 1.3em;
 }
+
 
 /* project section */
 
@@ -236,11 +242,13 @@ main h4 a:hover {
   transform-origin: top;
 }
 
+
 /*goals section*/
 
 .goals-bg-color {
   background-color: #e91e63;
 }
+
 
 /*skills section*/
 
@@ -258,11 +266,13 @@ main h4 a:hover {
   padding: 0 15px;
 }
 
+
 /* education section */
 
 .edu-bg-color {
   background-color: #3f51b5;
 }
+
 
 /* work section */
 
@@ -276,6 +286,7 @@ main h4 a:hover {
 .work-bg-color {
   /*background-color: #78909c;*/
 }
+
 
 /* Flip Panel */
 
@@ -373,6 +384,7 @@ main h4 a:hover {
   -webkit-border-radius: 20px;
 }
 
+
 /*contact section*/
 
 .contact-bg-color {
@@ -389,6 +401,7 @@ main h4 a:hover {
   justify-content: center;
   align-items: center;
 }
+
 
 /* myFooter */
 
@@ -459,6 +472,7 @@ footer {
   font-size: .75em;
 }
 
+
 /* separators */
 
 .triangle3060-ft-rl,
@@ -517,9 +531,10 @@ footer {
   fill: #00bcd4;
 }
 
+
 /* media querie */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .nav {
     margin-right: 0;
   }
