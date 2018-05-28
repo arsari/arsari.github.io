@@ -10,4 +10,7 @@ $(document).ready(function () {
     }, function () {
         $(this).removeClass('flip')
     })
+
+    // sroll to top
+    $(document).scrollTop(0);
 })
