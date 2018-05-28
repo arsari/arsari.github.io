@@ -10,9 +10,4 @@ $(document).ready(function () {
     }, function () {
         $(this).removeClass('flip')
     })
-
-    // sroll to top
-    window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-    }
 })
