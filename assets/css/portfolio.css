@@ -269,6 +269,7 @@ main h4 a:hover {
   border: none;
   transform: scale(.6);
   transform-origin: top;
+  overflow: hidden;
 }
 
 /*goals section*/
