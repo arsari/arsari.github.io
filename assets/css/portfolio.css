@@ -79,14 +79,16 @@ button .fa-code {
   font-weight: bolder;
 }
 
+/* typ properties */
+#project-section, #work-section, .fixed-bg-img {
+  background-position: center center;
+  background-size: cover;
+}
 /* myContent */
 
 .fixed-bg-img {
   height: 100vh;
   background-image: url('../img/coding03.png');
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .hometext {
@@ -230,9 +232,6 @@ main h4 a:hover {
 
 #project-section {
   background-image: url('../img/coding01.png');
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 /* .project-bg-color {
@@ -289,9 +288,6 @@ main h4 a:hover {
 
 #work-section {
   background-image: url('../img/coding02.png');
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 /* .work-bg-color {
@@ -383,7 +379,7 @@ main h4 a:hover {
   background-color: #fa6959;
 }
 
-/*contact section*/
+/* contact section */
 
 .contact-bg-color {
   background-color: #00bcd4;

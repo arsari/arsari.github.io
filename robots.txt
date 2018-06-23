@@ -1,0 +1,7 @@
+# robots.txt for https://arsari.github.io/
+
+User-Agent: *
+Disallow: /assets/
+Disallow: /thank-you.html
+Disallow: /README.md
+Disallow: /LICENSE
